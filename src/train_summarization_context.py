@@ -147,7 +147,7 @@ if args.dataset_name not in dataset_list:
 
 # Set metric
 #metric = load_metric("rouge")
-metric = evaluate.load("/utils/rouge.py")
+metric = evaluate.load("/content/SICK_Summarization/utils/rouge.py")
 
 # Load Tokenizer associated to the model
 tokenizer = AutoTokenizer.from_pretrained(args.model_name)
