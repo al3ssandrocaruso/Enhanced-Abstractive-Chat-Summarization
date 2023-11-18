@@ -71,7 +71,7 @@ print('######################################################################')
 
 
 # Start WANDB Log (Set Logging API)
-wandb.init(project="Sick", reinit=True, entity='Sick')
+wandb.init()
 if args.use_paracomet:
     cs = "para"
     if args.use_roberta:
