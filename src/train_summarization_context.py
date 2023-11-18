@@ -1,4 +1,7 @@
 import os
+
+import evaluate as evaluate
+
 os.environ['WANDB_SILENT']="true"
 
 import sys
@@ -144,7 +147,7 @@ if args.dataset_name not in dataset_list:
 
 # Set metric
 #metric = load_metric("rouge")
-metric = load_metric("../utils/rouge.py")
+metric = evaluate.load("../utils/rouge.py")
 
 # Load Tokenizer associated to the model
 tokenizer = AutoTokenizer.from_pretrained(args.model_name)
