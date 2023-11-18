@@ -29,8 +29,7 @@ import spacy
 import re
 import random
 
-#from data.dataset import SamsumDataset_total, DialogsumDataset_total
-
+# replicated dataset classes here for problems of import in colab
 class SamsumDataset(Dataset):
     def __init__(self, encoder_max_len, decoder_max_len, split_type,
                  tokenizer, extra_context=False, extra_supervision=False,
@@ -315,8 +314,6 @@ class SamsumDataset(Dataset):
                 # print(summary_commonsense)
 
         return model_inputs
-
-
 class SamsumDataset_total:
     def __init__(self, encoder_max_len, decoder_max_len, tokenizer,
                  extra_context=False, extra_supervision=False, paracomet=False,
@@ -346,8 +343,6 @@ class SamsumDataset_total:
 
     def getTestData(self):
         return self.test_dataset
-
-
 def custom_load_dataset(type, split):
     if type == "dialogsum":
         dir = f"./DialogSum_Data/dialogsum.{split}.jsonl"
@@ -379,8 +374,6 @@ def custom_load_dataset(type, split):
             print("non-existing")
             os.exit()
         return data
-
-
 class DialogsumDataset(Dataset):
     def __init__(self, encoder_max_len, decoder_max_len, split_type, tokenizer, extra_context=False,
                  extra_supervision=False, paracomet=False, relation="xReason", supervision_relation="isAfter",
@@ -765,8 +758,6 @@ class DialogsumDataset(Dataset):
                 model_inputs['extra_labels'] = encoded_extra_supervision['input_ids'].squeeze(0)
 
         return model_inputs
-
-
 class DialogsumDataset_total:
     def __init__(self, encoder_max_len, decoder_max_len, tokenizer,
                  extra_context=False, extra_supervision=False, paracomet=False,
@@ -794,24 +785,14 @@ class DialogsumDataset_total:
 
     def getTestData(self):
         return self.test_dataset
-
-
 class MediasumDataset(Dataset):
     pass
-
-
 class MediasumDataset_total:
     pass
-
-
 class TweetsummDataset(Dataset):
     pass
-
-
 class TweetsummDataset_total:
     pass
-
-
 class SamsumDataset_low(Dataset):
     def __init__(self, encoder_max_len, decoder_max_len, split_type, tokenizer, extra_context=False,
                  extra_supervision=False, paracomet=False, relation="xReason", supervision_relation="isAfter",
@@ -1041,8 +1022,6 @@ class SamsumDataset_low(Dataset):
                 # print(summary_commonsense)
 
         return model_inputs
-
-
 class SamsumDataset_low_total:
     def __init__(self, encoder_max_len, decoder_max_len, tokenizer, extra_context=False, extra_supervision=False,
                  paracomet=False, relation="xReason", supervision_relation='isAfter', roberta=False):
@@ -1067,6 +1046,8 @@ class SamsumDataset_low_total:
 
     def getTestData(self):
         return self.test_dataset
+
+
 # Set Argument Parser
 parser = argparse.ArgumentParser()
 # Training hyperparameters
@@ -1178,7 +1159,7 @@ dataset_list = [
     "samsum","dialogsum"
 ]
 
-
+# The model names is passed as argument of the program (in our example, facebook/bart-large-xsum)
 # Refine arguments based on global values
 if args.model_name not in model_checkpoint_list:
     assert "Your Model checkpoint name is not valid"
