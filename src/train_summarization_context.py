@@ -1051,10 +1051,12 @@ class SamsumDataset_low_total:
 # Set Argument Parser
 parser = argparse.ArgumentParser()
 # Training hyperparameters
-parser.add_argument('--epoch', type=int, default=20)
-parser.add_argument('--train_batch_size', type=int, default=16)
+#parser.add_argument('--epoch', type=int, default=20)
+parser.add_argument('--epoch', type=int, default=1) # speed computation for debugging
+#parser.add_argument('--train_batch_size', type=int, default=16)
+parser.add_argument('--train_batch_size', type=int, default=8) # try debugging
 #parser.add_argument('--display_step',type=int, default=2000)
-parser.add_argument('--val_batch_size',type=int, default=4)
+parser.add_argument('--val_batch_size',type=int, default=2)
 parser.add_argument('--test_batch_size',type=int,default=1)
 # Model hyperparameters
 parser.add_argument('--model_name',type=str, default='facebook/bart-large')
