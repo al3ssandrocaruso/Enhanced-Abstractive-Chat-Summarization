@@ -1124,10 +1124,6 @@ args = parser.parse_args()
 # Set GPU
 print('######################################################################')
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print('Device:', device)
-print('Current cuda device:', torch.cuda.current_device())
-print('Count of using GPUs:', torch.cuda.device_count())
-print(torch.cuda.get_device_name())
 print('######################################################################')
 
 # Start WANDB Log (Set Logging API)
@@ -1280,7 +1276,7 @@ finetune_args = Seq2SeqTrainingArguments(
     # warmup_ratio= ,
     warmup_steps=args.warm_up,
     save_total_limit=1,
-    fp16=True,
+   # fp16=True,
     seed=516,
     load_best_model_at_end=True,
     predict_with_generate=True,
