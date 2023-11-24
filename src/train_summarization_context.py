@@ -35,7 +35,7 @@ import re
 import random
 import sys
 import sys
-sys.path.append('../dataset.py')
+sys.path.append('/content/SICK_Summarization/data/dataset.py')
 import dataset
 
 # Set Argument Parser
