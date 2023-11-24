@@ -35,6 +35,8 @@ import re
 import random
 import sys
 import sys
+import os
+print(os.getcwd())
 sys.path.append('/content/SICK_Summarization/data/dataset.py')
 import dataset
 
