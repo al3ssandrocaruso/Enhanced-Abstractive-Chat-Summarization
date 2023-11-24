@@ -141,7 +141,7 @@ if args.dataset_name not in dataset_list:
 
 # Set metric
 # metric = load_metric("rouge")
-metric = load_metric("../utils/rouge.py")
+metric = load_metric("../rouge.py")
 
 # Load Tokenizer associated to the model
 tokenizer = AutoTokenizer.from_pretrained(args.model_name)
