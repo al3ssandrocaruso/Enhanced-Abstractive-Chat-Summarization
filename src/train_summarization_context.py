@@ -37,8 +37,7 @@ import sys
 import sys
 import os
 print(os.getcwd())
-sys.path.append('/SICK_Summarization/data/dataset.py')
-import dataset
+from SICK_Summarization.data import dataset
 
 # Set Argument Parser
 parser = argparse.ArgumentParser()
