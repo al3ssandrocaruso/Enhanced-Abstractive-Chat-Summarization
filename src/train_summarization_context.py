@@ -1,6 +1,5 @@
 import os
 
-import datasets
 import nltk
 
 nltk.download('punkt')
@@ -10,47 +9,17 @@ import sys
 
 sys.path.append('../')
 import argparse
-import random
-import json
 import nltk
 import numpy as np
-import torch
-import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader, SequentialSampler
 from transformers import AutoTokenizer
 from transformers import AutoConfig, AutoModelForSeq2SeqLM
 from transformers import Seq2SeqTrainingArguments, Seq2SeqTrainer
 # from datasets import load_metric
 from datasets import load_metric
 # import wandb
-import json
-import pickle
 import torch
-import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader, SequentialSampler
-from datasets import load_dataset
-import os
-import spacy
-import re
-import random
-import sys
-import sys
-import os
 
-# Mount Google Drive
-from google.colab import drive
-drive.mount('/content/drive')
-
-# Update the path to your project
-project_path = '/content/drive/My Drive/SICK_Summarization'
-
-# Append the project path to sys.path
-import sys
-sys.path.append(project_path)
-
-# Now you should be able to import your module
-from data import dataset
-
+from src import dataset
 
 # Set Argument Parser
 parser = argparse.ArgumentParser()
@@ -184,17 +153,17 @@ tokenizer.add_special_tokens(special_tokens_dict)
 # Set dataset
 if args.dataset_name == 'samsum':
     total_dataset = dataset.SamsumDataset_total(args.encoder_max_len, args.decoder_max_len, tokenizer, extra_context=True,
-                                        paracomet=args.use_paracomet, relation=args.relation,
-                                        supervision_relation=args.supervision_relation, roberta=args.use_roberta,
-                                        sentence_transformer=args.use_sentence_transformer)
+                                                paracomet=args.use_paracomet, relation=args.relation,
+                                                supervision_relation=args.supervision_relation, roberta=args.use_roberta,
+                                                sentence_transformer=args.use_sentence_transformer)
     train_dataset = total_dataset.getTrainData()
     eval_dataset = total_dataset.getEvalData()
     test_dataset = total_dataset.getTestData()
 elif args.dataset_name == 'dialogsum':
     total_dataset = dataset.DialogsumDataset_total(args.encoder_max_len, args.decoder_max_len, tokenizer, extra_context=True,
-                                           paracomet=args.use_paracomet, relation=args.relation,
-                                           supervision_relation=args.supervision_relation,
-                                           sentence_transformer=args.use_sentence_transformer, roberta=args.use_roberta)
+                                                   paracomet=args.use_paracomet, relation=args.relation,
+                                                   supervision_relation=args.supervision_relation,
+                                                   sentence_transformer=args.use_sentence_transformer, roberta=args.use_roberta)
     train_dataset = total_dataset.getTrainData()
     eval_dataset = total_dataset.getEvalData()
     test_dataset = total_dataset.getTestData()

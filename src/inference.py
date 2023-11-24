@@ -1,5 +1,3 @@
-import os
-
 #os.environ['CUDA_DEVICE_ORDER']='PCI_BUS_ID'
 #os.environ['CUDA_VISIBLE_DEVICES']="1"
 
@@ -11,11 +9,11 @@ import numpy as np
 import argparse
 import torch
 # import transformers
-from torch.utils.data import DataLoader, Dataset
+from torch.utils.data import DataLoader
 from transformers import BartForConditionalGeneration, AutoTokenizer
 from datasets import load_metric
-from data.dataset import SamsumDataset_total, DialogsumDataset_total, MediasumDataset_total, TweetsummDataset_total
-from models.bart import BartForConditionalGeneration_DualDecoder, BartForConditionalGeneration_DualHead
+from src.dataset import SamsumDataset_total, DialogsumDataset_total
+from models.bart import BartForConditionalGeneration_DualDecoder
 from tqdm import tqdm
 
 # Set Argument Parser
