@@ -34,9 +34,9 @@ import spacy
 import re
 import random
 import sys
-sys.path.append('data/dataset.py')  # Replace this with the actual path to your module
-
-from data import dataset
+import sys
+sys.path.append('/data/dataset.py')
+import dataset
 
 # Set Argument Parser
 parser = argparse.ArgumentParser()
