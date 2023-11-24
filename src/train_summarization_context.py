@@ -19,7 +19,7 @@ from datasets import load_metric
 # import wandb
 import torch
 
-from src import dataset
+import dataset
 
 # Set Argument Parser
 parser = argparse.ArgumentParser()
