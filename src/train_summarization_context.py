@@ -8,7 +8,7 @@ nltk.download('punkt')
 os.environ["WANDB_DISABLED"] = "true"
 import sys
 
-sys.path.append('/../dataset.py')
+sys.path.append('../dataset.py')
 import argparse
 import random
 import json
