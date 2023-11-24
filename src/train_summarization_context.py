@@ -36,8 +36,21 @@ import random
 import sys
 import sys
 import os
-print(os.getcwd())
-from SICK_Summarization.data import dataset
+
+# Mount Google Drive
+from google.colab import drive
+drive.mount('/content/drive')
+
+# Update the path to your project
+project_path = '/content/drive/My Drive/SICK_Summarization'
+
+# Append the project path to sys.path
+import sys
+sys.path.append(project_path)
+
+# Now you should be able to import your module
+from data import dataset
+
 
 # Set Argument Parser
 parser = argparse.ArgumentParser()
