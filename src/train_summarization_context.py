@@ -35,7 +35,7 @@ import re
 import random
 import sys
 import sys
-sys.path.append('/data/dataset.py')
+sys.path.append('../dataset.py')
 import dataset
 
 # Set Argument Parser
