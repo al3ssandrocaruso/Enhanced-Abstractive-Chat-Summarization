@@ -33,7 +33,7 @@ import os
 import spacy
 import re
 import random
-from data import dataset
+from data.dataset import SamsumDataset_total,DialogsumDataset_total
 
 # Set Argument Parser
 parser = argparse.ArgumentParser()
@@ -166,7 +166,7 @@ tokenizer.add_special_tokens(special_tokens_dict)
 
 # Set dataset
 if args.dataset_name == 'samsum':
-    total_dataset =dataset.SamsumDataset_total(args.encoder_max_len, args.decoder_max_len, tokenizer, extra_context=True,
+    total_dataset = SamsumDataset_total(args.encoder_max_len, args.decoder_max_len, tokenizer, extra_context=True,
                                         paracomet=args.use_paracomet, relation=args.relation,
                                         supervision_relation=args.supervision_relation, roberta=args.use_roberta,
                                         sentence_transformer=args.use_sentence_transformer)
@@ -174,7 +174,7 @@ if args.dataset_name == 'samsum':
     eval_dataset = total_dataset.getEvalData()
     test_dataset = total_dataset.getTestData()
 elif args.dataset_name == 'dialogsum':
-    total_dataset = dataset.DialogsumDataset_total(args.encoder_max_len, args.decoder_max_len, tokenizer, extra_context=True,
+    total_dataset = DialogsumDataset_total(args.encoder_max_len, args.decoder_max_len, tokenizer, extra_context=True,
                                            paracomet=args.use_paracomet, relation=args.relation,
                                            supervision_relation=args.supervision_relation,
                                            sentence_transformer=args.use_sentence_transformer, roberta=args.use_roberta)
