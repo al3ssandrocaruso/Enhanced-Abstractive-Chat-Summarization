@@ -33,7 +33,7 @@ import os
 import spacy
 import re
 import random
-from data import dataset
+import dataset
 
 # Set Argument Parser
 parser = argparse.ArgumentParser()
