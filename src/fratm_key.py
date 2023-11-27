@@ -1,9 +1,14 @@
 import argparse
+from seqeval.metrics import accuracy_score, f1_score, precision_score, recall_score
+from seqeval.scheme import IOB2, IOB1
+import numpy as np
 
+from nltk.stem.porter import PorterStemmer
 import dataset
 import torch
 
-from transformers import AutoTokenizer, AutoModelForTokenClassification
+from transformers import AutoTokenizer, AutoModelForTokenClassification, Seq2SeqTrainingArguments, Seq2SeqTrainer
+
 # Set Argument Parser
 parser = argparse.ArgumentParser()
 # Training hyperparameters
@@ -51,14 +56,11 @@ tokenizer = AutoTokenizer.from_pretrained("ml6team/keyphrase-extraction-kbir-ins
 special_tokens_dict = {'additional_special_tokens': ['<I>', '</I>']}
 tokenizer.add_special_tokens(special_tokens_dict)
 
-# for now, only samsum
-total_dataset = dataset.SamsumDataset_total(args.encoder_max_len, args.decoder_max_len, tokenizer, extra_context=True,
-                                                paracomet=args.use_paracomet, relation=args.relation,
-                                                supervision_relation=args.supervision_relation, roberta=args.use_roberta,
-                                                sentence_transformer=args.use_sentence_transformer)
-train_dataset = total_dataset.getTrainData()
-eval_dataset = total_dataset.getEvalData()
-test_dataset = total_dataset.getTestData()
+from datasets import load_dataset
+
+dataset_train = load_dataset("samsum", split="train")
+dataset_eval = load_dataset("samsum", split="eval")
+
 
 # Set GPU
 print('######################################################################')
@@ -67,11 +69,9 @@ print('######################################################################')
 
 print('######################################################################')
 print('Training Dataset Size is : ')
-print(len(train_dataset))
+print(len(dataset_train))
 print('Validation Dataset Size is : ')
-print(len(eval_dataset))
-print('Test Dataset Size is : ')
-print(len(test_dataset))
+print(len(dataset_eval))
 print('######################################################################')
 
 
@@ -79,3 +79,109 @@ finetune_model = AutoModelForTokenClassification.from_pretrained("ml6team/keyphr
 print('######################################################################')
 print("Number of Model Parameters are : ", finetune_model.num_parameters())
 print('######################################################################')
+# Set Training Arguments
+
+finetune_args = Seq2SeqTrainingArguments(
+    output_dir=args.finetune_weight_path,
+    overwrite_output_dir=True,
+    do_train=True,
+    do_eval=True,
+    do_predict=True,
+    evaluation_strategy='epoch',
+    logging_strategy="epoch",
+    save_strategy="epoch",
+    # eval_steps=1,
+    # logging_steps=1,
+    # save_steps=1,
+    per_device_train_batch_size=args.train_batch_size,
+    per_device_eval_batch_size=args.val_batch_size,
+    learning_rate=args.init_lr,
+    weight_decay=args.weight_decay,
+    adam_beta1=args.adam_beta1,
+    adam_beta2=args.adam_beta2,
+    adam_epsilon=args.adam_eps,
+    num_train_epochs=args.epoch,
+    max_grad_norm=0.1,
+    # label_smoothing_factor=0.1,
+    gradient_accumulation_steps=2,
+    gradient_checkpointing=True,
+    # max_steps= ,
+    lr_scheduler_type='polynomial',
+    # warmup_ratio= ,
+    warmup_steps=args.warm_up,
+    save_total_limit=1,
+   # fp16=True,
+    seed=516,
+    load_best_model_at_end=True,
+    predict_with_generate=True,
+    prediction_loss_only=False,
+    generation_max_length=100,
+    generation_num_beams=5,
+    metric_for_best_model='eval_rouge1',
+    greater_is_better=True,
+    #  report_to = 'wandb',
+)
+def compute_metrics(p):
+    return_entity_level_metrics = False
+    ignore_value = -100
+    predictions, labels = p
+    label_to_id = {"B": 0, "I": 1, "O": 2}
+    id_to_label = ["B", "I", "O"]
+    # if model_args.use_crf is False:
+    predictions = np.argmax(predictions, axis=2)
+    # print(predictions.shape, labels.shape)
+
+    # Remove ignored index (special tokens)
+    true_predictions = [
+        [id_to_label[p] for (p, l) in zip(prediction, label) if l != ignore_value]
+        for prediction, label in zip(predictions, labels)
+    ]
+    true_labels = [
+        [id_to_label[l] for (p, l) in zip(prediction, label) if l != ignore_value]
+        for prediction, label in zip(predictions, labels)
+    ]
+
+    # results = metric.compute(predictions=true_predictions, references=true_labels)
+    results = {}
+    # print("cal precisi")
+    # mode="strict"
+    results["overall_precision"] = precision_score(
+        true_labels, true_predictions, scheme=IOB2
+    )
+    results["overall_recall"] = recall_score(true_labels, true_predictions, scheme=IOB2)
+    # print("cal f1")
+    results["overall_f1"] = f1_score(true_labels, true_predictions, scheme=IOB2)
+    results["overall_accuracy"] = accuracy_score(true_labels, true_predictions)
+    if return_entity_level_metrics:
+        # Unpack nested dictionaries
+        final_results = {}
+        # print("cal entity level mat")
+        for key, value in results.items():
+            if isinstance(value, dict):
+                for n, v in value.items():
+                    final_results[f"{key}_{n}"] = v
+            else:
+                final_results[key] = value
+        return final_results
+    else:
+        return {
+            "precision": results["overall_precision"],
+            "recall": results["overall_recall"],
+            "f1": results["overall_f1"],
+            "accuracy": results["overall_accuracy"],
+        }
+
+finetune_trainer = Seq2SeqTrainer(
+    model=finetune_model,
+    args=finetune_args,
+    train_dataset=dataset_train,
+    eval_dataset=dataset_eval,
+    tokenizer=tokenizer,
+    compute_metrics=compute_metrics,
+)
+
+# Run Training (Finetuning)
+finetune_trainer.train()
+
+# Save final weights
+finetune_trainer.save_model(args.best_finetune_weight_path)
