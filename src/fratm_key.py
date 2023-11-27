@@ -59,7 +59,7 @@ tokenizer.add_special_tokens(special_tokens_dict)
 from datasets import load_dataset
 
 dataset_train = load_dataset("samsum", split="train")
-dataset_eval = load_dataset("samsum", split="eval")
+dataset_eval = load_dataset("samsum", split="validation")
 
 
 # Set GPU
