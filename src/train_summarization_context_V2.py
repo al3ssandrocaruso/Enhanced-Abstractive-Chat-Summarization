@@ -246,9 +246,14 @@ def compute_metrics(eval_pred):
     model = SentenceTransformer('sentence-transformers/all-mpnet-base-v2')
     embeddings_preds = model.encode(decoded_preds)
     embeddings_labels = model.encode(decoded_labels)
+    print("$"*30)
+    print(decoded_preds,decoded_labels)
+    print(embeddings_preds,embeddings_labels)
 
     # Compute cosine similarity
     similarity = cosine_similarity(embeddings_preds, embeddings_labels)
+    print(similarity)
+    print("$" * 30)
 
     # Add mean generated length
     prediction_lens = [np.count_nonzero(pred != tokenizer.pad_token_id) for pred in predictions]
