@@ -225,7 +225,7 @@ finetune_args = Seq2SeqTrainingArguments(
     prediction_loss_only=False,
     generation_max_length=100,
     generation_num_beams=5,
-    metric_for_best_model='eval_rouge1',
+    metric_for_best_model='eval_cosine_similarity',
     greater_is_better=True,
     #  report_to = 'wandb',
 )
@@ -248,15 +248,12 @@ def compute_metrics(eval_pred):
     embeddings_labels = model.encode(decoded_labels)
 
     # Compute cosine similarity
-    similarities = cosine_similarity(embeddings_preds, embeddings_labels)
-
-    # Calculate mean similarity
-    mean_similarity = np.mean(similarities)
+    similarity = cosine_similarity(embeddings_preds, embeddings_labels)
 
     # Add mean generated length
     prediction_lens = [np.count_nonzero(pred != tokenizer.pad_token_id) for pred in predictions]
 
-    return {"mean_similarity": round(mean_similarity, 4), "gen_len": round(np.mean(prediction_lens), 4)}
+    return {"cosine_similarity": round(similarity, 4), "gen_len": round(np.mean(prediction_lens), 4)}
 
 
 
