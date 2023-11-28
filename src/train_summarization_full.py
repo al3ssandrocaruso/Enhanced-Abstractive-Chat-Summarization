@@ -1,3 +1,5 @@
+import os
+os.environ["WANDB_DISABLED"] = "true"
 import sys
 sys.path.append('../')
 import argparse
@@ -8,7 +10,7 @@ from transformers import AutoTokenizer
 from transformers import AutoConfig
 from transformers import Seq2SeqTrainingArguments
 from datasets import load_metric
-import wandb
+# import wandb
 from src.dataset import SamsumDataset_total, DialogsumDataset_total
 from src.bart import BartForConditionalGeneration_DualDecoder
 from src.trainer import DualDecoderTrainer
@@ -67,7 +69,7 @@ print('######################################################################')
 
 
 # Start WANDB Log (Set Logging API)
-wandb.init(project="ICSK4AS", reinit=True, entity='icsk4as')
+# wandb.init(project="ICSK4AS", reinit=True, entity='icsk4as')
 
 
 # Define Global Values
@@ -205,7 +207,7 @@ finetune_args = Seq2SeqTrainingArguments(
     #generation_num_beams=5,
     #metric_for_best_model='eval_rouge2',
     greater_is_better=True,
-    report_to = 'wandb',
+    # report_to = 'wandb',
 )
 
 def compute_metrics(eval_pred):
@@ -278,4 +280,4 @@ with open(args.test_output_file_name,"w") as f:
         f.write(i.replace("\n","")+"\n")
 """
 # END WANDB log
-wandb.finish()
+# wandb.finish()
