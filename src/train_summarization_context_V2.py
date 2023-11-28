@@ -258,7 +258,7 @@ def compute_metrics(eval_pred):
 
     return {"mean_similarity": round(mean_similarity, 4), "gen_len": round(np.mean(prediction_lens), 4)}
 
-
+#a
 
 def preprocess_logits_for_metrics(logits, labels):
     print(logits.size())
