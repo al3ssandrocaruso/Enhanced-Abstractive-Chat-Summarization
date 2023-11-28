@@ -2,6 +2,12 @@ import os
 
 import nltk
 
+
+'''
+This version implements a more complex measure in order to evaluate which model is the best based on the eval set
+See compute_metric function.
+'''
+
 nltk.download('punkt')
 # os.environ['WANDB_SILENT']="true"
 os.environ["WANDB_DISABLED"] = "true"
@@ -235,6 +241,8 @@ from sentence_transformers import SentenceTransformer
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
+
+# it helps us choosing the best model
 def compute_metrics(eval_pred):
     predictions, labels = eval_pred
     decoded_preds = tokenizer.batch_decode(predictions, skip_special_tokens=True)
