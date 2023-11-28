@@ -11,9 +11,11 @@ from transformers import AutoConfig
 from transformers import Seq2SeqTrainingArguments
 from datasets import load_metric
 # import wandb
-from src.dataset import SamsumDataset_total, DialogsumDataset_total
-from src.bart import BartForConditionalGeneration_DualDecoder
-from src.trainer import DualDecoderTrainer
+
+# Update path for colab
+from dataset import SamsumDataset_total, DialogsumDataset_total
+from bart import BartForConditionalGeneration_DualDecoder
+from trainer import DualDecoderTrainer
 
 
 # Set Argument Parser
@@ -122,7 +124,9 @@ if args.dataset_name not in dataset_list:
 
 
 # Set metric
-metric = load_metric("../utils/rouge.py")
+# Update metric path for colab, or else use the relative path: "../utils/rouge.py"
+metric = load_metric("/content/SICK_Summarization/utils/rouge.py")
+
 
 # Load Tokenizer associated to the model
 tokenizer = AutoTokenizer.from_pretrained(args.model_name)
