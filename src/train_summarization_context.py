@@ -152,6 +152,7 @@ special_tokens_dict = {'additional_special_tokens': ['<I>', '</I>']}
 tokenizer.add_special_tokens(special_tokens_dict)
 
 if args.emoji_m1 == True:
+    print("Tokenizer with E")
     special_tokens_emoji = {'additional_special_tokens': ['<E>', '</E>']}
     tokenizer.add_special_tokens(special_tokens_emoji)
 

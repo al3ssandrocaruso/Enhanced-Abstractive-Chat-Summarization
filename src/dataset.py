@@ -90,10 +90,15 @@ class SamsumDataset(Dataset):
 
 
             else:
-
-                with open(
-                        f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/dialog_{self.split_type}_split5_collated.json") as f:
-                    self.dialogue_comet_inference = json.load(f)
+                if self.args.emoji_m1 == True:
+                    with open(
+                            f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/preprocessed_dialog_{self.split_type}_split5_collated.json") as f:
+                        self.dialogue_comet_inference = json.load(f)
+                        print(f'/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/preprocessed_dialog_{self.split_type}_split5_collated.json')
+                else:
+                    with open(
+                            f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/dialog_{self.split_type}_split5_collated.json") as f:
+                        self.dialogue_comet_inference = json.load(f)
                 if self.roberta:
                     print('ROBERTA ON!')
                     with open(
@@ -456,10 +461,15 @@ class DialogsumDataset(Dataset):
                 ###########################
                 # CODE FOR PARACOMET
                 ###########################
-
-                with open(
-                        f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/dialogsum/dialog_{self.split_type}_split5_collated.json") as f:
-                    self.dialogue_comet_inference = json.load(f)
+                if self.args.emoji_m1 == True:
+                    with open(
+                            f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/dialogsum/preprocessed_dialog_{self.split_type}_split5_collated.json") as f:
+                        self.dialogue_comet_inference = json.load(f)
+                        print(f'/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/dialogsum/preprocessed_dialog_{self.split_type}_split5_collated.json')
+                else:
+                    with open(
+                            f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/dialogsum/dialog_{self.split_type}_split5_collated.json") as f:
+                        self.dialogue_comet_inference = json.load(f)
 
                 if self.roberta:
                     with open(
