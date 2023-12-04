@@ -2,18 +2,37 @@ import os
 import nltk
 
 nltk.download('punkt')
+# os.environ['WANDB_SILENT']="true"
 os.environ["WANDB_DISABLED"] = "true"
 import sys
 sys.path.append('../')
+import argparse
+import random
 import json
+import nltk
+import numpy as np
 import torch
-from torch.utils.data import Dataset
+import torch.nn as nn
+from torch.utils.data import Dataset, DataLoader, SequentialSampler
+from transformers import AutoTokenizer
+from transformers import AutoConfig, AutoModelForSeq2SeqLM
+from transformers import Seq2SeqTrainingArguments, Seq2SeqTrainer
+# from datasets import load_metric
+from datasets import load_metric
+# import wandb
+import json
+import pickle
+import torch
+import torch.nn as nn
+from torch.utils.data import Dataset, DataLoader, SequentialSampler
 from datasets import load_dataset
 import os
 import spacy
 import re
 import random
 
+
+# replicated dataset classes here for problems of import in colab
 class SamsumDataset(Dataset):
     def __init__(self, encoder_max_len, decoder_max_len, split_type,
                  tokenizer, extra_context=False, extra_supervision=False,
@@ -124,25 +143,6 @@ class SamsumDataset(Dataset):
 
     def process_media_msg(self, sentence, person, commonsense):
         # print(person)
-        if ('<file_photo>' in sentence) or ('<photo_file>' in sentence) or ('<file_picture>' in sentence):
-            return "<I> " + person + " sent a photo. </I>" + '\n'
-        elif ('<video>' in sentence) or ('<file_video>' in sentence):
-            return "<I> " + person + " sent a video. </I>" + '\n'
-        elif '<file_gif>' in sentence:
-            return "<I> " + person + " sent a file. </I>" + '\n'
-        elif ('<file_other>' in sentence) or ('<file_others>' in sentence):
-            return "<I> " + person + " sent a file. </I>" + '\n'
-        elif ('<link>' in sentence) or ('<file_link>' in sentence):
-            return "<I> " + person + " sent a link. </I>" + '\n'
-        elif '<location>' in sentence:
-            return "<I> " + person + " sent a location. </I>" + '\n'
-        else:
-            if commonsense.strip() != 'none':
-                return "<I> " + commonsense.strip() + ". </I>" + '\n'
-            else:
-                return ""
-    def process_media_msg_wit_emoji(self, sentence, person, commonsense):
-        print(sentence)
         if ('<file_photo>' in sentence) or ('<photo_file>' in sentence) or ('<file_picture>' in sentence):
             return "<I> " + person + " sent a photo. </I>" + '\n'
         elif ('<video>' in sentence) or ('<file_video>' in sentence):

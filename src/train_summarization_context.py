@@ -31,6 +31,7 @@ parser.add_argument('--train_batch_size', type=int, default=16)
 # parser.add_argument('--display_step',type=int, default=2000)
 parser.add_argument('--val_batch_size', type=int, default=2)
 parser.add_argument('--test_batch_size', type=int, default=1)
+parser.add_argument('--emoji_m1', type=bool, default=False)
 # Model hyperparameters
 parser.add_argument('--model_name', type=str, default='facebook/bart-large')
 # Optimizer hyperparameters
@@ -149,6 +150,10 @@ tokenizer = AutoTokenizer.from_pretrained(args.model_name)
 # Add special token
 special_tokens_dict = {'additional_special_tokens': ['<I>', '</I>']}
 tokenizer.add_special_tokens(special_tokens_dict)
+
+if args.emoji_m1 == True:
+    special_tokens_emoji = {'additional_special_tokens': ['<E>', '</E>']}
+    tokenizer.add_special_tokens(special_tokens_emoji)
 
 # Set dataset
 if args.dataset_name == 'samsum':
