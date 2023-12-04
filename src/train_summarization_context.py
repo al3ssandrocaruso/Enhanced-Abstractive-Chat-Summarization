@@ -161,7 +161,7 @@ if args.dataset_name == 'samsum':
     total_dataset = dataset.SamsumDataset_total(args.encoder_max_len, args.decoder_max_len, tokenizer, extra_context=True,
                                                 paracomet=args.use_paracomet, relation=args.relation,
                                                 supervision_relation=args.supervision_relation, roberta=args.use_roberta,
-                                                sentence_transformer=args.use_sentence_transformer)
+                                                sentence_transformer=args.use_sentence_transformer, emoji_m1 = args.emoji_m1)
     train_dataset = total_dataset.getTrainData()
     eval_dataset = total_dataset.getEvalData()
     test_dataset = total_dataset.getTestData()
