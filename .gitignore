@@ -16,3 +16,4 @@ utils/__pycache__/
 eval_trials/tmp_result_EMOJI_M1.txt
 eval_trials/res_v2_rouge_scores_EMOJI_M1.xlsx
 eval_trials/rouge_clean_emoji_M1.py
+eval_trials/res_v2_rouge_scores_EMOJI_M1_with_bert.xlsx
