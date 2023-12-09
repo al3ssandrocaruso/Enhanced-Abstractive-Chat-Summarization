@@ -32,7 +32,7 @@ parser.add_argument('--train_batch_size', type=int, default=16)
 parser.add_argument('--val_batch_size', type=int, default=2)
 parser.add_argument('--test_batch_size', type=int, default=1)
 parser.add_argument('--emoji_m1', type=bool, default=False)
-parser.add_argument('--keywords', type=bool, default=False)
+parser.add_argument('--keyword', type=bool, default=False)
 # Model hyperparameters
 parser.add_argument('--model_name', type=str, default='facebook/bart-large')
 # Optimizer hyperparameters
@@ -157,7 +157,7 @@ if args.emoji_m1 == True:
     special_tokens_emoji = {'additional_special_tokens': ['<E>', '</E>']}
     tokenizer.add_special_tokens(special_tokens_emoji)
 
-if args.keywords == True:
+if args.keyword == True:
     print("Tokenizer with K")
     special_tokens_keyword = {'additional_special_tokens': ['<K>', '</K>']}
     tokenizer.add_special_tokens(special_tokens_keyword)
