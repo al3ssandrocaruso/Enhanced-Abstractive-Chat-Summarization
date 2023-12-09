@@ -32,6 +32,7 @@ parser.add_argument('--train_batch_size', type=int, default=16)
 parser.add_argument('--val_batch_size', type=int, default=2)
 parser.add_argument('--test_batch_size', type=int, default=1)
 parser.add_argument('--emoji_m1', type=bool, default=False)
+parser.add_argument('--keywords', type=bool, default=False)
 # Model hyperparameters
 parser.add_argument('--model_name', type=str, default='facebook/bart-large')
 # Optimizer hyperparameters
@@ -156,12 +157,17 @@ if args.emoji_m1 == True:
     special_tokens_emoji = {'additional_special_tokens': ['<E>', '</E>']}
     tokenizer.add_special_tokens(special_tokens_emoji)
 
+if args.keywords == True:
+    print("Tokenizer with K")
+    special_tokens_keyword = {'additional_special_tokens': ['<K>', '</K>']}
+    tokenizer.add_special_tokens(special_tokens_keyword)
+
 # Set dataset
 if args.dataset_name == 'samsum':
     total_dataset = dataset.SamsumDataset_total(args.encoder_max_len, args.decoder_max_len, tokenizer, extra_context=True,
                                                 paracomet=args.use_paracomet, relation=args.relation,
                                                 supervision_relation=args.supervision_relation, roberta=args.use_roberta,
-                                                sentence_transformer=args.use_sentence_transformer, emoji_m1 = args.emoji_m1)
+                                                sentence_transformer=args.use_sentence_transformer, emoji_m1 = args.emoji_m1, keyword = args.keyword)
     train_dataset = total_dataset.getTrainData()
     eval_dataset = total_dataset.getEvalData()
     test_dataset = total_dataset.getTestData()

@@ -37,12 +37,13 @@ class SamsumDataset(Dataset):
     def __init__(self, encoder_max_len, decoder_max_len, split_type,
                  tokenizer, extra_context=False, extra_supervision=False,
                  paracomet=False, relation="xReason", supervision_relation="xIntent",
-                 roberta=False, sentence_transformer=False, emoji_m1 = False):
+                 roberta=False, sentence_transformer=False, emoji_m1 = False, keyword = False):
         self.encoder_max_len = encoder_max_len
         self.decoder_max_len = decoder_max_len
         self.split_type = split_type
         self.tokenizer = tokenizer
         self.emoji_m1 = emoji_m1
+        self.keyword = keyword
 
         self.extra_context = extra_context
         self.extra_supervision = extra_supervision
@@ -91,11 +92,24 @@ class SamsumDataset(Dataset):
 
 
             else:
-                if self.emoji_m1 == True:
+                if self.emoji_m1 == True and self.keyword == True:
+                    print("#"*50)
+                    print("preprocessing with keywords and emoji")
+                    print("#" * 50)
+                    with open(
+                            f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/preprocessed_keywords_dialog_{self.split_type}_split5_collated.json") as f:
+                        self.dialogue_comet_inference = json.load(f)
+                        print(f'/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/preprocessed_keywords_dialog_{self.split_type}_split5_collated.json')
+
+                elif self.emoji:
+                    print("#" * 50)
+                    print("preprocessing just with emoji")
+                    print("#" * 50)
                     with open(
                             f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/preprocessed_dialog_{self.split_type}_split5_collated.json") as f:
                         self.dialogue_comet_inference = json.load(f)
                         print(f'/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/preprocessed_dialog_{self.split_type}_split5_collated.json')
+
                 else:
                     with open(
                             f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/dialog_{self.split_type}_split5_collated.json") as f:
@@ -333,22 +347,22 @@ class SamsumDataset_total:
     def __init__(self, encoder_max_len, decoder_max_len, tokenizer,
                  extra_context=False, extra_supervision=False, paracomet=False,
                  relation="xReason", supervision_relation='isAfter',
-                 roberta=False, sentence_transformer=False, emoji_m1 = False):
+                 roberta=False, sentence_transformer=False, emoji_m1 = False, keyword = False):
         self.train_dataset = SamsumDataset(encoder_max_len, decoder_max_len, 'train', tokenizer,
                                            extra_context=extra_context, extra_supervision=extra_supervision,
                                            paracomet=paracomet, relation=relation,
                                            supervision_relation=supervision_relation, roberta=roberta,
-                                           sentence_transformer=sentence_transformer, emoji_m1 = emoji_m1)
+                                           sentence_transformer=sentence_transformer, emoji_m1 = emoji_m1, keyword = keyword)
         self.eval_dataset = SamsumDataset(encoder_max_len, decoder_max_len, 'validation', tokenizer,
                                           extra_context=extra_context, extra_supervision=extra_supervision,
                                           paracomet=paracomet, relation=relation,
                                           supervision_relation=supervision_relation, roberta=roberta,
-                                          sentence_transformer=sentence_transformer, emoji_m1 = emoji_m1)
+                                          sentence_transformer=sentence_transformer, emoji_m1 = emoji_m1, keyword = keyword)
         self.test_dataset = SamsumDataset(encoder_max_len, decoder_max_len, 'test', tokenizer,
                                           extra_context=extra_context, extra_supervision=extra_supervision,
                                           paracomet=paracomet, relation=relation,
                                           supervision_relation=supervision_relation, roberta=roberta,
-                                          sentence_transformer=sentence_transformer, emoji_m1 = emoji_m1)
+                                          sentence_transformer=sentence_transformer, emoji_m1 = emoji_m1, keyword = keyword)
 
     def getTrainData(self):
         return self.train_dataset
@@ -462,7 +476,18 @@ class DialogsumDataset(Dataset):
                 ###########################
                 # CODE FOR PARACOMET
                 ###########################
-                if self.emoji_m1 == True:
+                if self.emoji_m1 == True and self.keyword == True:
+                    print("#"*50)
+                    print("Paracomet with keywords and emoji")
+                    print("#" * 50)
+                    with open(
+                            f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/dialogsum/preprocessed_keywords_dialog_{self.split_type}_split5_collated.json") as f:
+                        self.dialogue_comet_inference = json.load(f)
+                        print(f'/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/dialogsum/preprocessed_keywords_dialog_{self.split_type}_split5_collated.json')
+                elif self.emoji == True:
+                    print("#" * 50)
+                    print("Paracomet with just emoji")
+                    print("#" * 50)
                     with open(
                             f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/dialogsum/preprocessed_dialog_{self.split_type}_split5_collated.json") as f:
                         self.dialogue_comet_inference = json.load(f)
