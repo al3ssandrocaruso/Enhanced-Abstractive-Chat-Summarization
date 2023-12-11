@@ -149,18 +149,8 @@ metric = load_metric("/content/SICK_Summarization/utils/rouge.py")
 tokenizer = AutoTokenizer.from_pretrained(args.model_name)
 
 # Add special token
-special_tokens_dict = {'additional_special_tokens': ['<I>', '</I>']}
+special_tokens_dict = {'additional_special_tokens':  ['<I>', '</I>', '<E>', '</E>', '<K>', '</K>']}
 tokenizer.add_special_tokens(special_tokens_dict)
-
-if args.emoji_m1 == True:
-    print("Tokenizer with E")
-    special_tokens_emoji = {'additional_special_tokens': ['<E>', '</E>']}
-    tokenizer.add_special_tokens(special_tokens_emoji)
-
-if args.keyword == True:
-    print("Tokenizer with K")
-    special_tokens_keyword = {'additional_special_tokens': ['<K>', '</K>']}
-    tokenizer.add_special_tokens(special_tokens_keyword)
 
 # Set dataset
 if args.dataset_name == 'samsum':
