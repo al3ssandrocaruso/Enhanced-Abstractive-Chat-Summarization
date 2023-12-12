@@ -148,63 +148,66 @@ total_rougeLsum_scores = 0.0
 total_bert_scores = 0.0
 total_decoded_preds = []
 total_decoded_labels = []
+# modifica momentanea solo per salvare label in un .txt
+output_file_path = 'decoded_labels.txt'  # You can change the file path as needed
+with open(output_file_path, 'w') as output_file:
+    with torch.no_grad():
+        for idx, data in enumerate(tqdm(test_dataloader), 0):
+            # if idx % 40 ==0:
+            #     print(total_rouge1_scores)
+            #     print(idx)
+            x = data['input_ids'].to(device, dtype=torch.long)
+            mask = data['attention_mask'].to(device, dtype=torch.long)
+            y = data['labels'].to(device, dtype=torch.long)
 
-with torch.no_grad():
-    for idx, data in enumerate(tqdm(test_dataloader), 0):
-        # if idx % 40 ==0:
-        #     print(total_rouge1_scores)
-        #     print(idx)
-        x = data['input_ids'].to(device, dtype=torch.long)
-        mask = data['attention_mask'].to(device, dtype=torch.long)
-        y = data['labels'].to(device, dtype=torch.long)
+            generated_ids = finetune_model.generate(
+                input_ids=x,
+                attention_mask=mask,
+                max_length=100,
+                num_beams=args.num_beams
+            )
 
-        generated_ids = finetune_model.generate(
-            input_ids=x,
-            attention_mask=mask,
-            max_length=100,
-            num_beams=args.num_beams
-        )
+            generated_ids = generated_ids.cpu()
+            y = y.cpu()
 
-        generated_ids = generated_ids.cpu()
-        y = y.cpu()
+            decoded_preds = tokenizer.batch_decode(generated_ids, skip_special_tokens=True,
+                                                   clean_up_tokenization_spaces=True)
+            y = np.where(y != -100, y, tokenizer.pad_token_id)
+            decoded_labels = tokenizer.batch_decode(y, skip_special_tokens=True, clean_up_tokenization_spaces=True)
+            for labels in decoded_labels:
+                output_file.write(labels + '\n')
+            # Rouge expects a newline after each sentence
+            decoded_preds = ["\n".join(nltk.sent_tokenize(pred.strip())) for pred in decoded_preds]
+            decoded_labels = ["\n".join(nltk.sent_tokenize(label.strip())) for label in decoded_labels]
+            # print('################')
+            # print(decoded_preds)
+            # print()
+            # print()
+            # print(decoded_labels)
+            # print('############')
+            metric.add_batch(predictions=decoded_preds, references=decoded_labels)
+            bertscore_metric.add_batch(predictions=decoded_preds, references=decoded_labels)
 
-        decoded_preds = tokenizer.batch_decode(generated_ids, skip_special_tokens=True,
-                                               clean_up_tokenization_spaces=True)
-        y = np.where(y != -100, y, tokenizer.pad_token_id)
-        decoded_labels = tokenizer.batch_decode(y, skip_special_tokens=True, clean_up_tokenization_spaces=True)
+            if args.dataset_name == 'dialogsum':
+                y2 = data['labels2'].to(device, dtype=torch.long)
+                y2 = y2.cpu()
+                y3 = data['labels3'].to(device, dtype=torch.long)
+                y3 = y3.cpu()
 
-        # Rouge expects a newline after each sentence
-        decoded_preds = ["\n".join(nltk.sent_tokenize(pred.strip())) for pred in decoded_preds]
-        decoded_labels = ["\n".join(nltk.sent_tokenize(label.strip())) for label in decoded_labels]
-        # print('################')
-        # print(decoded_preds)
-        # print()
-        # print()
-        # print(decoded_labels)
-        # print('############')
-        metric.add_batch(predictions=decoded_preds, references=decoded_labels)
-        bertscore_metric.add_batch(predictions=decoded_preds, references=decoded_labels)
+                decoded_labels2 = tokenizer.batch_decode(y2, skip_special_tokens=True, clean_up_tokenization_space=True)
+                decoded_labels3 = tokenizer.batch_decode(y3, skip_special_tokens=True, clean_up_tokenization_space=True)
 
-        if args.dataset_name == 'dialogsum':
-            y2 = data['labels2'].to(device, dtype=torch.long)
-            y2 = y2.cpu()
-            y3 = data['labels3'].to(device, dtype=torch.long)
-            y3 = y3.cpu()
+                decoded_labels2 = ["\n".join(nltk.sent_tokenize(label.strip())) for label in decoded_labels2]
+                decoded_labels3 = ["\n".join(nltk.sent_tokenize(label.strip())) for label in decoded_labels3]
 
-            decoded_labels2 = tokenizer.batch_decode(y2, skip_special_tokens=True, clean_up_tokenization_space=True)
-            decoded_labels3 = tokenizer.batch_decode(y3, skip_special_tokens=True, clean_up_tokenization_space=True)
+                result2 = metric2.add_batch(predictions=decoded_preds, references=decoded_labels2)
+                result3 = metric3.add_batch(predictions=decoded_preds, references=decoded_labels3)
 
-            decoded_labels2 = ["\n".join(nltk.sent_tokenize(label.strip())) for label in decoded_labels2]
-            decoded_labels3 = ["\n".join(nltk.sent_tokenize(label.strip())) for label in decoded_labels3]
+                bertscore_metric2.add_batch(predictions=decoded_preds, references=decoded_labels2)
+                bertscore_metric3.add_batch(predictions=decoded_preds, references=decoded_labels3)
 
-            result2 = metric2.add_batch(predictions=decoded_preds, references=decoded_labels2)
-            result3 = metric3.add_batch(predictions=decoded_preds, references=decoded_labels3)
-
-            bertscore_metric2.add_batch(predictions=decoded_preds, references=decoded_labels2)
-            bertscore_metric3.add_batch(predictions=decoded_preds, references=decoded_labels3)
-
-        total_decoded_preds.append(decoded_preds)
-        total_decoded_labels.append(decoded_labels)
+            total_decoded_preds.append(decoded_preds)
+            total_decoded_labels.append(decoded_labels)
 
 bertscore_result = bertscore_metric.compute(lang='en', model_type='bert-base-uncased')
 result = metric.compute(use_stemmer=True)
