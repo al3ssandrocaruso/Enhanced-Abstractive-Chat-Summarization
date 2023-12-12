@@ -92,28 +92,24 @@ class SamsumDataset(Dataset):
 
 
             else:
-                if self.emoji_m1 == True and self.keyword == True:
-                    print("#"*50)
-                    print("preprocessing with keywords and emoji")
-                    print("#" * 50)
-                    with open(
-                            f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/preprocessed_keywords_dialog_{self.split_type}_split5_collated.json") as f:
-                        self.dialogue_comet_inference = json.load(f)
-                        print(f'/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/preprocessed_keywords_dialog_{self.split_type}_split5_collated.json')
-
-                elif self.emoji:
+                if self.emoji:
                     print("#" * 50)
                     print("preprocessing just with emoji")
                     print("#" * 50)
                     with open(
                             f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/preprocessed_dialog_{self.split_type}_split5_collated.json") as f:
                         self.dialogue_comet_inference = json.load(f)
-                        print(f'/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/preprocessed_dialog_{self.split_type}_split5_collated.json')
-
                 else:
                     with open(
                             f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/dialog_{self.split_type}_split5_collated.json") as f:
                         self.dialogue_comet_inference = json.load(f)
+                if self.keyword:
+                    print("#" * 50)
+                    print("preprocessing just with keywords")
+                    print("#" * 50)
+                    with open(
+                            f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/preprocessed_keywords_no_emoji_dialog_{self.split_type}_split5_collated.json") as f:
+                        self.keyword_inference = json.load(f)
                 if self.roberta:
                     print('ROBERTA ON!')
                     with open(
@@ -246,6 +242,12 @@ class SamsumDataset(Dataset):
 
                         if sentence != commonsense:
                             dialogue += self.process_media_msg(sentence, person, commonsense)
+
+                        if self.keyword:
+                            keywords = self.keyword_inference[self.id[index]][str(sent_idx)]["out"]
+                            if len(keywords) > 0:
+                                dialogue += "<K> "+keywords+" <\K>"
+
 
                 except KeyError:  # when an error occurred while processing commonsense, just give plain utterance as output
                     print("key error")
