@@ -126,6 +126,7 @@ if args.dataset_name == 'samsum':
                                         supervision_relation=args.supervision_relation, roberta=args.use_roberta,
                                         sentence_transformer=args.use_sentence_transformer, emoji_m1=args.emoji_m1, keyword = args.keyword)
     test_dataset = total_dataset.getTestData()
+
 elif args.dataset_name == 'dialogsum':
     total_dataset = dataset.DialogsumDataset_total(args.encoder_max_len, args.decoder_max_len, tokenizer, extra_context=True,
                                            extra_supervision=True, paracomet=args.use_paracomet, relation=args.relation,
