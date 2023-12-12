@@ -246,7 +246,7 @@ class SamsumDataset(Dataset):
                         if self.keyword:
                             keywords = self.keyword_inference[self.id[index]][str(sent_idx)]["out"]
                             if len(keywords) > 0:
-                                dialogue += "<K> "+keywords+" <\K>"
+                                dialogue += "<K> "+keywords+" </K>" + '\n'
 
 
                 except KeyError:  # when an error occurred while processing commonsense, just give plain utterance as output
