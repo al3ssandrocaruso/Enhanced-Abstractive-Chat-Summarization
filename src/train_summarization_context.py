@@ -24,7 +24,7 @@ import dataset
 # Set Argument Parser
 parser = argparse.ArgumentParser()
 # Training hyperparameters
-parser.add_argument('--epoch', type=int, default=20)
+parser.add_argument('--epoch', type=int, default=32)
 # parser.add_argument('--epoch', type=int, default=1) # speed computation for debugging
 parser.add_argument('--train_batch_size', type=int, default=20)
 # parser.add_argument('--train_batch_size', type=int, default=8) # try debugging
