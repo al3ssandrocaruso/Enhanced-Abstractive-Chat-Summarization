@@ -969,6 +969,7 @@ class SamsumDataset_low(Dataset):
                                               truncation=True,
                                               max_length=self.encoder_max_len,
                                               return_tensors='pt')
+
         else:
             if self.paracomet == False:  # plain COMET
                 try:
