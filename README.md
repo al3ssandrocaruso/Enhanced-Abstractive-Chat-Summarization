@@ -1,3 +1,6 @@
+Pretrained model V2V emoji: https://drive.google.com/drive/folders/1iIiuXpx4UYdNLhhGkhymsUa1n6tE6HxT?usp=sharing
+
+
 # Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization
 The official repository for the paper "Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization" accepted at COLING 2022.
 
