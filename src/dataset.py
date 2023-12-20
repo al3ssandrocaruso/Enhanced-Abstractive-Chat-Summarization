@@ -98,7 +98,7 @@ class SamsumDataset(Dataset):
                     # directory has been changed
                     print("#" * 50)
                     with open(
-                            f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/keyword_emoji_slang/preprocessed_keyword_slang_emoji_dialog_{self.split_type}_split5_collated.json") as f:
+                            f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/keyword_emoji_slang/preprocessed_keywords_slang_emoji_dialog_{self.split_type}_split5_collated.json") as f:
                         self.dialogue_comet_inference = json.load(f)
                 else:
                     with open(
