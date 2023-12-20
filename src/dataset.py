@@ -94,11 +94,11 @@ class SamsumDataset(Dataset):
             else:
                 if self.emoji_m1:
                     print("#" * 50)
-                    print("preprocessing with emoji, keywords and slang")
+                    print("preprocessing with emoji, keywords no slang")
                     # directory has been changed
                     print("#" * 50)
                     with open(
-                            f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/keyword_emoji_slang/preprocessed_keywords_slang_emoji_dialog_{self.split_type}_split5_collated.json") as f:
+                            f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/keyword_emoji_w2v/preprocessed_keywords_dialog_{self.split_type}_split5_collated.json") as f:
                         self.dialogue_comet_inference = json.load(f)
                 else:
                     with open(
