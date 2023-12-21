@@ -371,7 +371,7 @@ class SamsumDataset_total:
     def __init__(self, encoder_max_len, decoder_max_len, tokenizer,
                  extra_context=False, extra_supervision=False, paracomet=False,
                  relation="xReason", supervision_relation='isAfter',
-                 roberta=False, sentence_transformer=False, emoji_m1 = False, keyword = False):
+                 roberta=False, sentence_transformer=False, emoji_m1 = False, keyword = False, emoji_m0 = False, slang = False):
         self.train_dataset = SamsumDataset(encoder_max_len, decoder_max_len, 'train', tokenizer,
                                            extra_context=extra_context, extra_supervision=extra_supervision,
                                            paracomet=paracomet, relation=relation,
