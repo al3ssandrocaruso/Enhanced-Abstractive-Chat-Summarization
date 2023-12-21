@@ -1,6 +1,13 @@
 # Our implementations
 Pretrained model V2V emoji on twitter data: https://drive.google.com/drive/folders/1iIiuXpx4UYdNLhhGkhymsUa1n6tE6HxT?usp=sharing
 
+Some additional configs to specify.
+
+- emoji_m0 : If True uses an emoji remapping, more information in the folder _emoji/PreprocessJSON_Emoji.ipynb_".
+- emoji_m1 : If True uses an emoji remapping with a word2vector model, more information in the folder _emoji/W2V_Emoji.ipynb_".
+- keyword : If True uses KeyBert to get the most relevant word in the sentence, more information in the folder _keyword/KeyBERT.ipynb_".
+- slang : If True remap phrases's slang, more information in the folder _utils/slang_conversion.ipynb_.
+
 
 # Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization
 The official repository for the paper "Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization" accepted at COLING 2022.
