@@ -376,17 +376,17 @@ class SamsumDataset_total:
                                            extra_context=extra_context, extra_supervision=extra_supervision,
                                            paracomet=paracomet, relation=relation,
                                            supervision_relation=supervision_relation, roberta=roberta,
-                                           sentence_transformer=sentence_transformer, emoji_m1 = emoji_m1, keyword = keyword)
+                                           sentence_transformer=sentence_transformer, emoji_m1 = emoji_m1, keyword = keyword, emoji_m0= emoji_m0, slang = slang)
         self.eval_dataset = SamsumDataset(encoder_max_len, decoder_max_len, 'validation', tokenizer,
                                           extra_context=extra_context, extra_supervision=extra_supervision,
                                           paracomet=paracomet, relation=relation,
                                           supervision_relation=supervision_relation, roberta=roberta,
-                                          sentence_transformer=sentence_transformer, emoji_m1 = emoji_m1, keyword = keyword)
+                                          sentence_transformer=sentence_transformer, emoji_m1 = emoji_m1, keyword = keyword, emoji_m0= emoji_m0, slang = slang)
         self.test_dataset = SamsumDataset(encoder_max_len, decoder_max_len, 'test', tokenizer,
                                           extra_context=extra_context, extra_supervision=extra_supervision,
                                           paracomet=paracomet, relation=relation,
                                           supervision_relation=supervision_relation, roberta=roberta,
-                                          sentence_transformer=sentence_transformer, emoji_m1 = emoji_m1, keyword = keyword)
+                                          sentence_transformer=sentence_transformer, emoji_m1 = emoji_m1, keyword = keyword, emoji_m0= emoji_m0, slang = slang)
 
     def getTrainData(self):
         return self.train_dataset
