@@ -30,6 +30,8 @@ parser.add_argument('--encoder_max_len', type=int, default=1024)
 parser.add_argument('--decoder_max_len', type=int, default=100)
 parser.add_argument('--emoji_m1', type=bool, default=False)
 parser.add_argument('--keyword', type=bool, default=False)
+parser.add_argument('--emoji_m0', type=bool, default=False)
+parser.add_argument('--slang', type=bool, default=False)
 parser.add_argument('--use_paracomet', type=bool, default=False)
 parser.add_argument('--use_roberta', type=bool, default=False)
 parser.add_argument('--use_sentence_transformer', type=bool, default=False)
@@ -124,7 +126,8 @@ if args.dataset_name == 'samsum':
     total_dataset = dataset.SamsumDataset_total(args.encoder_max_len, args.decoder_max_len, tokenizer, extra_context=True,
                                         extra_supervision=True, paracomet=args.use_paracomet, relation=args.relation,
                                         supervision_relation=args.supervision_relation, roberta=args.use_roberta,
-                                        sentence_transformer=args.use_sentence_transformer, emoji_m1=args.emoji_m1, keyword = args.keyword)
+                                        sentence_transformer=args.use_sentence_transformer, emoji_m1=args.emoji_m1, keyword=args.keyword,
+                                                emoji_m0=args.emoji_m0, slang=args.slang)
     test_dataset = total_dataset.getTestData()
 
 elif args.dataset_name == 'dialogsum':

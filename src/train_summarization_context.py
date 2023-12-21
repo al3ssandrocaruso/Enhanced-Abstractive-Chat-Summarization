@@ -33,6 +33,8 @@ parser.add_argument('--val_batch_size', type=int, default=4)
 parser.add_argument('--test_batch_size', type=int, default=1)
 parser.add_argument('--emoji_m1', type=bool, default=False)
 parser.add_argument('--keyword', type=bool, default=False)
+parser.add_argument('--emoji_m0', type=bool, default=False)
+parser.add_argument('--slang', type=bool, default=False)
 # Model hyperparameters
 parser.add_argument('--model_name', type=str, default='facebook/bart-large')
 # Optimizer hyperparameters
@@ -157,7 +159,8 @@ if args.dataset_name == 'samsum':
     total_dataset = dataset.SamsumDataset_total(args.encoder_max_len, args.decoder_max_len, tokenizer, extra_context=True,
                                                 paracomet=args.use_paracomet, relation=args.relation,
                                                 supervision_relation=args.supervision_relation, roberta=args.use_roberta,
-                                                sentence_transformer=args.use_sentence_transformer, emoji_m1 = args.emoji_m1, keyword = args.keyword)
+                                                sentence_transformer=args.use_sentence_transformer, emoji_m1=args.emoji_m1, keyword=args.keyword,
+                                                emoji_m0=args.emoji_m0, slang=args.slang)
     train_dataset = total_dataset.getTrainData()
     eval_dataset = total_dataset.getEvalData()
     test_dataset = total_dataset.getTestData()
