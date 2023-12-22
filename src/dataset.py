@@ -103,7 +103,7 @@ class SamsumDataset(Dataset):
                             f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/keyword_emoji_slang/preprocessed_keywords_slang_emoji_dialog_{self.split_type}_split5_collated.json") as f:
                         self.dialogue_comet_inference = json.load(f)
 
-                if self.emoji_m1 and self.keyword:
+                elif self.emoji_m1 and self.keyword:
                     print("#" * 50)
                     print("preprocessing emoji w2v and keywords")
                     print("#" * 50)
@@ -111,7 +111,7 @@ class SamsumDataset(Dataset):
                             f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/keyword_emoji_w2v/preprocessed_keywords_dialog_{self.split_type}_split5_collated.json") as f:
                         self.dialogue_comet_inference = json.load(f)
 
-                if self.emoji_m1:
+                elif self.emoji_m1:
                     print("#" * 50)
                     print("preprocessing emoji w2v")
                     print("#" * 50)
@@ -119,7 +119,7 @@ class SamsumDataset(Dataset):
                             f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/emoji_w2v/preprocessed_v2_dialog_{self.split_type}_split5_collated.json") as f:
                         self.dialogue_comet_inference = json.load(f)
 
-                if self.emoji_m0:
+                elif self.emoji_m0:
                     print("#" * 50)
                     print("preprocessing emoji mapping")
                     print("#" * 50)
@@ -128,6 +128,9 @@ class SamsumDataset(Dataset):
                         self.dialogue_comet_inference = json.load(f)
 
                 else:
+                    print("#" * 50)
+                    print("standard preprocessing")
+                    print("#" * 50)
                     with open(
                             f"/content/SICK_Summarization/data/COMET_data/paracomet/dialogue/samsum/dialog_{self.split_type}_split5_collated.json") as f:
                         self.dialogue_comet_inference = json.load(f)
