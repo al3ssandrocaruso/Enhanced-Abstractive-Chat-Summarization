@@ -1,0 +1,826 @@
+num_beams: 20
+ rouge1: 51.892636105613065
+ rouge2: 26.761661839981247
+ rougeL: 42.64371403350592
+ rougeLsum: 47.4395479990944
+ bert-score: 0.7086580320737883
+
+Hannah is looking for Betty's number. Amanda can't find it. Larry called Betty last time they were at the park together. Hannah doesn't know him well. Amanda suggests Hannah to text him.
+Eric and Rob like the Russian comedian's stand-up. Rob will watch some of his stand-ups on YouTube.
+Lenny is looking for a new pair of purple trousers. Bob has four black pairs. Lenny will buy the first or the third pair.
+Emma will be home soon. Will will pick her up when she gets home.
+Ollie is in Warsaw. Jane is in Morocco. Ollie and Jane will meet for lunch on Friday at 6 pm after Jane finishes her courses.
+Benjamin, Elliot, Daniel and Hilary are going to meet at the entrance to the conference hall at 2 pm and then they're going to eat Italian food at La Cantina.
+Max and Payton are looking for good sites to buy clothes and books. Max will check them out.
+Rita is falling asleep at work. Tina keeps nodding off at her keyboard hoping that the boss doesn't notice. Rita and Tina hate their work.
+Beatrice is in town shopping. Leo doesn't want to buy a scarf because he doesn't need it.
+Ivan will take care of Eric's parents at his brother's wedding.
+Wanda and Gina are going to have a party on Friday. Wanda needs to make a list. Gina will take Wanda's father car and go to the supermarket with Wanda.
+Martin won two cinema tickets online. He will see the new film with Redford at the end of the week.
+Charlee is preparing a Portuguese theatre performance.
+Ella is going by car instead of train.
+Paul is looking for someone to join netflix family. Paul will send Luke the login and password on Sunday. Luke will wire Paul the money every month. Paul has been on holidays for less than 8 days.
+Greg needs to stay after hours to pick up Johnny. Betsy needs to work long hours as well. Greg will talk to Betsy later.
+Ethan, Toby and Marshall are making fun of Scott.
+Igor has a lot of work to do in the next two weeks.
+Clara and Neela are watching Dear White People on Netflix. It's about a fictional Ivy League University and the students in one House of Residence. There is a Blackface party held by an elite group of white students, which gets out of hand. One of the black students gets a loaded gun pointed at him by a campus policeman after he gets into an argument with a white student. There's a young black guy called Lionel who is coming to terms with being gay and
+Mike parked his car on Ernest's street today. Someone crashed into his car.
+Deirdre, Beth and Kira are planning a girls weekend for Beth's mum's 40th birthday. Deirdre and Beth will meet tomorrow after school for a cuppa and a chat. Beth wants to try a bit of work experience in the salon.
+Gloria and Emma are preparing for the exam. The exam is 4 hours long with no breaks. They have to read all the texts and try to write as fast as they can.
+May is depressed and doesn't want to see a specialist. Adam and Karen are worried about her. Karen has a friend who's a psychologist.
+Mark lied to Anne that he's 30, but he's 40.
+It's Wharton's birthday next week. Heather, Walker and Darlene are going to buy him a paper shredder. They will ask him at the party.
+Ollie, Kelly, Mickey and Jessica are going to see a scary sculpture garden in Finnland. Ollie's place is similar to Nagoro village in Japan.
+Myah can't see Selah's phone number very well.
+Bella's boss appreciated the decision to dismiss the request of client. He was looking forward to bring in new clients.
+Emma is at the rare of the bus. She is going to take a nap. Ben will wake her up around 4.15 PM. They are going to arrive to NY around 4:30 PM.
+Jesse, Lee, Melvin and Maxine are going to do something for the less fortunate this year. They're going to donate money to the Refuge to help women and children who escape from abuse.
+Mary wants Carter to lend her a few box. Carter will be at the train station in an hour.
+Paula asks Charlotte how to pronounce 'Natal lily', the name of the plant.
+May and Jack are going for cocktails later.
+Margaret has a terrible headache. Jack should buy her some painkiller.
+Serge is on his way to pick up the film equipment for tonight's shooting. He has an outstanding bill with the company. He will let Andrei know if it works out.
+Janice wants to buy her son a hamster for his birthday. Martina doesn't want her to do it.
+Daniel, Lucas and Mary have just started playing "Inquisition" - team Dorian.
+Judy is attracted to jerks. It didn't work out with Andrew. Bruce is not a jerk.
+Chloe is on TV. James doesn't understand why Chloe is on the channel.
+Ala is on her way to a meeting. Tina will let her know how the meeting went.
+It's been a year since Sebastian and his partner moved to their new place. Sebastian has learned more than ever. Kevin wants to win lottery one day.
+Frank wants his son to come home this weekend. He will tell his mother that he will come.
+Ola is in Cuba. Momo has recovered from her injury and frolicking again. Ola has a favorite scarf from Laos. Kate wants Ola to buy a new one.
+Mary doesn't have new John's number.
+Wujek Janek has tween cows.
+Josh thinks Stephen took his notebook home. Jack will bring it back tomorrow.
+Adele got a new 4-month-old pup biscuit lab. The cats keep their distance from him, Poppy and Lulu seem to mother him and Speedy wants to play.
+Kristian and Tabora are playing games.
+Cathy left her sunglasses at Broken's place. She might come over at 10 tonight to pick them up.
+Petra can't sleep because she's too sleepy. She's sleeping with her eyes open.
+Nick and Jane are going to meet up for a drink.
+Tim is gay. His friend told him he saw him with a guy.
+Lilly is going to be late. Gabriel will order the food for her.
+Celine will drop by Cara's place in the evening.
+Craig needs Derek's help with his computer. Derek will be there in 20 minutes.
+Abigail's smog alert app is showing that the norms have been exceeded by 30% today. Abigail doesn't want Emma to take the little ones for a stroll.
+Cindy doesn't want to buy pink or red flowers for Paul.
+Jenny has left her credit card at Mary's shop. She will pick it up whenever she comes.
+Gary and Lara are going to Tom's birthday party at 5 pm. Lara will pick up the cake and get the balloons. Gary has already paid for the cake.
+Paul is close to the Mac. Laura has been waiting for him for 15 minutes.
+Salma and Hugh like the latest cat meme.
+The results should be announced soon. Peter didn't get into Stanford, so he has to look for other university.
+Jake and Nadia don't have English today because Smith called in sick.
+Brandon lost his credit card. Luke and Ian will lend him $ 100.
+Alicja, Inez, Patrycja and Gosia enjoyed their evening in Italy. They will meet again on Wednesday.
+Catherine will call Ana when she wakes up. Ana wants to visit grandma tomorrow.
+Edson is booking his ticket now.
+Jane and Steven will meet at 4:30 instead of 5:30.
+Morgan and Suzanne are going to a Maroon 5 concert next week at the Hulu Theater at Madison Square Garden.
+The city library is organizing a meeting with Tess. Julia will check it out on their facebook.
+Ali left his wallet at Mohammad's place yesterday. Mohammad found it and will bring it to uni tomorrow.
+Laura and Linda will go to an Italian restaurant tomorrow. Linda loves pasta and brownie.
+Natalie, Martin, Margot and Mia are going to Anna's birthday party on 6th of November at 1930.
+Mia and Elliot are going out after work tonight. They are going to grab some drinks. Elliot will pick Mia up.
+Jayden and Brennan don't want to have children. Jayden wants to have sex and wait for a baby while having a normal life.
+England will play Croatia tomorrow at 2:00.
+John is coming in 10 minutes and wants to borrow his walle from Ela. Ela's phone is busy.
+Mary didn't tell her sister that she is doing an online job. Mark did it to make her jealous.
+Fiona is trying to prepare a nice dinner for Chris. Tina will prepare a tart for him.
+Peadar, Annette, Helen and James are going to Jesus bar from around 9.15. Clare is not in town. Anne double booked herself.
+Ryan and Sebastian are worried about the situation in Ukraine.
+Finn and Zadie are going to visit Elephant and Castle tomorrow. They will meet at the main entrance at 2 o'clock.
+Harry asked Jacob to listen to the song he sent him 3 days ago. Jacob will do that later tonight.
+Max is locked in his room because someone locked the door from outside. Ray has to pee, so he asks Max to let him out. Max's roommate is on his way.
+Harry bought a new sofa and needs pillows. Kim will tell his mother that grey is the best colour for the sofa.
+Josh needs to buy an iPad. Brian recommends Samsung, Xiaomi and Sony. Josh will call Brian after work.
+Olafur, Nathalie and Zoe are going to breakfast at Tiffany's on New Year's Eve.
+Andy has a quiz tomorrow. He will study for it tomorrow.
+Kim is looking for fresh ramal fish in Warsaw. She has already tried the marketplace at Polna street. She will grill it for a special occasion.
+Tom and Ben will meet at 2 pm in the Oval Room. Ben will take all his papers.
+Ashleigh got a job. She and Peter are going to the cinema.
+Reed and Danna had a boring Saturday. Reed doesn't have a TV because their subscription expired and they don't want to pay for it. Reed is off tomorrow.
+Alivia has been working on her thesis. She has problems finding research materials.
+Maddie is in Asda. John needs some white bread and some apples.
+Elliot will call Jordan tonight at 8 pm. Jordan is going to a funeral of his colleague, Brad, who had liver cancer.
+Flo can't get into the salon until the 6th. She's going to get a touch-up kit at Tesco.
+Rob is at the grocery store and wants to buy some food for supper and lunch tomorrow. Ann can't join him as she has a meeting.
+Melany can't remember the last time she got laid.
+Eric and Noah are talking about the recent scandal on the news.
+Jacky and David will talk later. Jacky will call David when he gets home.
+Chris and Rick are in Cancun for their last two days before flying to Havana. Chris and Rick will skype tomorrow at 3 pm.
+Ying has 10 years to live. Helen, Norma and Zazu are impressed.
+Missy gets out of work at 6. She will meet Daniel for drinks after dinner.
+Pete will clean the hamster cage after school.
+Maya will buy 4 or 5 pairs of earplugs for Randolph.
+David is coming home for Christmas next week and will buy his dad an ipad. He will order it online and have it shipped home.
+Betty and Isabella listened to her work yesterday. They want to do sth together.
+Amy will get back to Hollie later.
+Huda and Alex are going swimming in 2 hours.
+Janet is ashamed that she voted for Donald Trump. Elsie didn't make it to the inauguration ceremony.
+Rashi is confused about his career options. His teacher advises him to choose a career based on what interests him.
+Corbin wants to report school violence in Jungang high school. Dimitri will call the department in charge of school violence.
+Marta is looking for a technician to fix PC's. Pablo is on vacation this week, so Marta will ask Cynthia or Elena.
+Ann is planning a surprise party for her dad's 50th birthday. She doesn't know what to do as he's afraid of heights. Fiona suggests a movie ticket, bungee jumping, a parachute jump, a paintball game, horse riding and a team play.
+Lincoln and Fatima are arguing about Alene. Alene has depression and she won't go to the doctor. Lincoln thinks she's destroying her life. Fatima is upset about it.
+Lisa wants Bob to clean the bathroom. Bob doesn't want to do it.
+Martial and Luke will let Jose know that they are available for selection tomorrow. They will meet up at carrington and go to Jose's office very early.
+Emily is sending lots of kisses to Julie.
+Ricky doesn't like his new next door neighbors. They are noisy and have a parakeet.
+Brenda and Sandra used to work together in the clothes factory. Sandra wants to organise a reunion for the Lister's girls. Brenda will come to Birmingham next Saturday.
+John and Joan are going to see "A Star is Born" on Thursday around 8 pm.
+George and Donna will meet in a coffee shop or somewhere tonight to discuss a delicate matter.
+Fabian and Louis are going to see each other.
+Crystal and Irene are going shopping with their little boy. They are going to buy him something.
+Tony sent Amy and Lucas a photo of a cat.
+Matt got his ticket for Dawid Podsiadlo. Thomas is going by himself for now. Matt might ask a few more people if they're coming.
+Chris pushed some girls into the pool.
+Jeff, Mico and Jim will go to the village party. Lia is too tired after hiking.
+Paul will couch the game on Saturday.
+Luke's train arrives at 3 pm. Freddy will pick him up at 3:15. Jacob is at work till 5.
+Jack is going to the casting. He will meet Ryan there.
+Joanne's parents separated a few months ago. Evelyn will stay at home and rest. Joanne's dad left her mum for his secretary. She doesn't want to go to France, but Evelyn offers to bring her mum over for Christmas.
+Raul had a bad night last night. Yesterday Jen broke up with her boyfriend and went to sit with her for the night. Raul had weird dreams of his uncle.
+Angie has severe stomach pain. She will see Doctor McCormick in an hour.
+Kelvin and Naheeda will sit for their CAT 2 during the statistics class.
+Linda, Karen, Ronnie and Amanda are going to have pasta for lunch.
+Marty sprained his ankle. Christine will pick up Marcel from school at 4. She will take him to the doctor tomorrow morning.
+Cameron will have to stay out of town for another week. Peyton wants him to bring a video game for her.
+Alicja has a job interview tomorrow.
+Paul forgot about his physiotherapy. Emma will be home after midnight. Paul will prepare some food for Emma.
+Sean overslept again.
+Chris invites Tom and his brother to join him in a jacuzzi in his garden. They will watch TV from his living room.
+Cindy will call Ela and tell her that Harry needs to talk to her urgently.
+Mike didn't take the dog for a walk. Adam will take him with him.
+Murphy is going to Poanań on Tuesday. He will be back in the afternoon.
+Gaia is doing well at the university. She has 6 exams this term.
+Mr. Williams and Ms. Blair are going for a coffee at a coffee place near the square in a side alley.
+Jeff has a skin condition. He doesn't have to be on meds all the time. Tina has the same thing and takes meds on the daily. Tina can call Jeff if she has any questions.
+Kristina, Jannette and Estefania are watching America's Top Model. Kristina wants to look like Tyra Banks.
+Daniel is flying to Bologna today. He will stay for 2 hours. Simone will come to Marco in December for a weekend.
+Mike can't talk right now. He will call Dale in 2 hours.
+Timmy had a bad day at work. Gemma is organising a bbq at the weekend. Timmy will bring some wine and Gemma will cover the food.
+Pat will come in the evening. Bart will open the door for Pat. Pat has another project to finish. Pat will tell Bart all about it tomorrow.
+Ashley and Erin will meet at the pool or restaurant to do the interview. Erin is on her way.
+Tommy, Kate, Sam and Maria are preparing a power point for the conference. Tommy is paying $10 a month for academics.
+Maxwell and Jeanice are meeting tonight for 8 hours to discuss Marcus' behaviour at school. Jeanice will let Maxwell know if he needs to do something about it.
+Mike, Tom and Ben are going for a beer now.
+Leah went to the poetry reading last night and met a creepy guy. He wentogled her out, because he thought she had a crush on him. He tried to walk her home even though she told him that he was a creep.
+Nicky left Dave's place.
+Ken's account was hacked by a prankster. Ken wants his money back.
+Tom will send Alexander a message when he will be in a taxi.
+There are 5 bouncy castles in the hall. The university organised a carnival party for children.
+Sophie doesn't know where Ian's green folder is. Ian is sure he left it on the dining room table. Sophie will ask Alex.
+Simon will talk to Adrian at 5.
+Jen is going to tell her ex-boyfriend to leave her.
+Poppy is not preparing anything for dinner tonight. She won't be home tonight. Dean will grab something on the way back home.
+Gab wants to meet Kat in real life. Kat doesn't want to meet strange men from the internet.
+Agatha's economics presentation is ready. She used recent research.
+Imagine Dragons are coming to the ABC Theatre on 12 July. Sally bought the tickets for the standing area for 70. Tim and Sally will go together.
+Andrew wanted to take Bez's car and go to Krizingen, but it showed "low  brake fluid level" at the garage next to Willig. Kate took his car today, and everything was fine. Bez is home on the 21st in the evening.
+Laura is planning to visit her old parents next Saturday. She has a big project coming up. Keith will cook her lasagne.
+Pegah will be back at 22:00 D. She will have a cup of tea with Miriam.
+Pam has to go shopping, cook and clean. Robert will help with Tom's birthday. Pam doesn't have time to pick up the balloons from the store in the city centre.
+Shelly is volunteering at the food shelter this year. Jody does some charity work every year.
+Max sent Jim his latest project. Jim will listen to it when he gets home.
+Kane recommends Shannon to check out the new 30 seconds to mars album.
+Andy will visit Paul in about 1 hour to drink coffee and talk about politics with him.
+Caroline is close to tugging on her testicles again.
+Josh will check his email to see what Ron sent him.
+Phoebe doesn't want to go out today because her mum is angry. Phoebe used her mother's perfume and broke it.
+Rob and Eve will meet up on Sunday. Eve has some stuff to do around 3.
+Betty and Sandra have a special place in their hearts for men that take care of animals. Sandra's ex-boyfriend left her after 3 months. Betty will be at Sandra's place at 6 and will bring wine.
+Anna and Peter are talking about an app that allows men to add photos of clothes to their wardrobe. Peter has 3 or 4 shirts, 5 or 6 pairs of trousers and 2 jackets. Anna has 12 shirts, 10 pairs of pants and 6 jackets.
+Dan got an injection with anaesthesis. He is more swollen than yesterday.
+Archie is arriving from Southampton around midnight. He might take an hour to get to Judah's place.
+Chloe has not watched the series yet. She will watch it during the weekend.
+Lauren is thinking of getting a tattoo. She would like to get a small bird on her leg above the ankle. Tessie knows a couple of guys who do it.
+Wendy thinks the upstairs toilet might be blocked. She hasn't flushed any tampons or pads down there. She doesn't think they can afford to pay the plumber this month.
+There is left-hand traffic in Rowen's country. Kaylen wouldn't be able to drive there.
+Tom wants to go to Robinson Crusoe's island. Jonathan, Kit and Oscar think it's insane.
+Emely needs to fill in the gaps in a task. Emely will send Titus a photo of the task and then she will write him the answers.
+Aldo sent Marco his article. Marco will print it and read it right now.
+Lena's friend Aoki died yesterday. She hasn't seen her for a few months. She lives in Michigan.
+Hannah has a whole list of New Year's resolutions. She wants to lose weight and exercise everyday, learn how to cook and start meal prepping, and find her future husband. Brooklyn doesn't want to make any resolutions.
+Trevor is having sex with Abigail's father. Her father is a church pastor.
+Julia likes Instagram, Twitter, Snapchat and Facebook. Gail likes to spy on people. Julia and Gail have a lot of mutual friends. Jessica is thinking about going on diet.
+Miranda called Tom and tried to take him away from Anne.
+Ella wants her family to confirm that they are coming and if they have any dietary requirements for the catering company.
+Sarah will reach New York this coming Thursday. Joshua will be waiting for her gift.
+Allison got a scholarship. Maya and Sarah are proud of her.
+Abdellilah will see Sam at 9 in the morning.
+Betty and Phil are going to the cinema tonight. Betty will book the tickets and they will meet at 6 pm near the theatre. They will have dinner at home and go for a stroll afterwards.
+Robert is looking for a new job. He was sacked by the Swedes. Serge will send him his CV to a Belgian guy who is thinking of opening a new factory here.
+Lily had an amazing night with a Romanian man from an extremely rich family. He works at the LSE in London.
+Sam is looking for a black dress for his wife. Sarah fashion makes dresses on order as per customer requirements. Sam will come to the store to order the dress.
+Kamden hasn't seen Mckinley in a while because he's been off social media. Kamden uses chat on fb to keep in touch with his friends.
+Mike is going to the gym and then home. Jason will come over later and they will play Destiny 2 on ps4.
+Linda is moving to Ohio for 6 months. Daisy will help her pack.
+Hayden has 1 month to write his thesis and decide what studies he should choose. He is interested in African studies. He was thinking about working as a flight attendant, but he doesn't want to work there forever.
+Alan has found a new company that has no sugar, no taste, and additional cinnamon flavoring. The cinnamon goes well with the whiskey.
+Mary and Yaz are going to slimming club tonight. Mary will pick Yaz up at 6 pm.
+Camille is sick. Ellie and Aaliyah are having their classes on the second floor.
+Nathan sent Aaron a video of his cat taking a dump.
+William has been in que for 20 minutes. He will be back in 5 minutes.
+Jake reserved 3 tickets for tomorrow at 7 pm and got a 30% discount on them.
+Freddie is watching Mad Men, Kelly is watching The Crown, Jim is watching I, Zombie, Bob is watching Grimm or Sabrina, Mary is watching Desperate Housewives and Alan is catching up with Friends. Greg is watching House of Cards.
+Sonia and Toni are going to San Sebastian in a month or so. Toni will recommend the airbnb place they stayed in last year. The landlady is an old basque lady who rents a room in the appartment.
+Malik and Samantha are going to try the paleo diet and the keto diet together.
+Derek had a busy day. Phil couldn't close any deal. Some customers are negotiating for days, weeks and then they pull out.
+People are photoshopping Timothée Chalamet into artworks.
+Peter has been busy with work. He has been working out to improve his health. He holds a membership with the gym near their office. He does weights and run on the treadmill. Lisa thinks she needs to eat better to keep in shape.
+Julia broke Tom's cup. She will buy him a new one.
+The CSS tests are today. Hank doesn't know if he has to fill out all the fields. Hank and Don's kids are 10 years old. The tests last 3 hours. Don will take Hank's kids next time.
+Jessica went to the second hand shop downtown and bought a table, six chairs, a vase, a pile of clothes and a black dress for 70 euros.
+Abigail and Damien are going to church on Sunday. Damien needs to put on a coat and tie.
+Lucian and Desiree are not at home. Desiree keeps her pasta in the microwave.
+Jeni is jealous of Doug's shoes.
+Tessa wants Chloe to stop texting her boyfriend Jim Andrews.
+Emily and Marta will meet in the Pub X at the central station at 5.30.
+Eddie and Anne went to La Perle with Jane and Ella. Jane is allergic to peanuts. They ordered a cheesecake and she started swelling after the first bite.
+Railey will buy a burger for Tiffany on her way home.
+Ariana is going shopping in Midtown. Aviana wishes she could go with her.
+Jane is getting halloween costumes with her sister. Connor got his today at Value Village.
+Mary didn't go to school today.
+Tom, Jeffrey and Elena are few meters from each other.
+Sophia sends Mason a kiss photo. She doesn't want Mason to see her when she's not looking good.
+Steffen twisted his ancle yesterday. Irene and Dan will give him a lift to the infinity pool. Sandy is going to the vistas de olas.
+Jake, Florence, Margot and Mike are going on a research trip to Eswatini.
+Christine has the flu. Annie will drop some sachets of Theraflu through Christine's letterbox later.
+Jill called Bob's girlfriend and sent her pictures of Bob and Jill. Bob was living with Jill and he would have lived if Jill had not kicked him out.
+Peter will start his new job at 8 on the 6th. Aggie will get a babysitter then.
+Soren doesn't know where Maryam is. She might have gone somewhere with his father.
+George, Robert and Paul are going to play basketball on Friday at 7 p.m. Yousuf needs to help his sister with her car.
+Mitch will take Bill and Sammy to the International camp on Sunday, the 29th. Rory will meet him after the camp. They will probably put Bill on a Flixbus, so he'll arrive around 10 am Sun.
+Jones and Angelina will meet today in the afternoon in town. Jones will call Angelina to confirm where they will meet.
+Alyssa and Derek like Fergie's national anthem.
+Lauren needs Pam for tomorrow. The Manager's back tomorrow. Pam will let Lauren know if she has any more rota.
+Harriette went ghost hunting once when she was in high school. She didn't see any ghosts, but she did freak out at hearing a cat meow.
+Jack can't get the application running. Kev will help him right now.
+Dan will explain everything if Angela agrees to meet him at school later.
+Shaldona and Piper are getting married. Shaldona sent Piper a mobile invitation for their wedding.
+Ralph and Paula will meet with the new person in an hour.
+Ania, Kasia, Jan and Zuzia are going to the church tomorrow to praise Mary the Queen of Poland.
+Ema is coming in 2 minutes. The movie has already started.
+Jeff, Donald, Tanya and Vladimir are talking about the Caspian Sea agreement.
+Joe's job is wearing him out. Tim and Sam advise him not to let it burn him out like his friend Terry.
+Judy is going to the new club at Regents Street on Saturday with Miranda and Helen.
+Marlo doesn't want to do the presentations in groups. Jamie, Alex, Marlo and Jimmy think they should talk to the boss and ask him to make 3 presentations for 3 people per team.
+John is at school doing maths now. Nora talked on the phone to his math teacher. John is in the park with Theresa.
+Sara saw a huge crowd outside the book shop today. Louis's friend told him about a new writer who writes about vampires. Sara is not a fan of his books.
+Debbie doesn't know which dress to buy. Kelly is considering buying the red one for herself. Denise recommends the green one.
+Emilia is still angry with William.
+Mia will use Tom's credit card to buy a flight ticket. She will send him the flight, company and personal data.
+Hugh has a toothache and needs a dentist urgently. Andy recommends ProDent in the centre. Wade recommends Dr Smith in the clinic. Hugh is working late today.
+Ella's mom won a hundred thou in the lottery.
+Oli tried to get to the Circle Mall but got hit by a car. There are no deaths.
+Rob is watching the game. Bob is having a few people over for the weekend. Jim is planning to celebrate his birthday next Wednesday. Rob will let him know when he sees him.
+Debra is going to a party over the weekend with 20 girls from the village 40+. They will drink a little vodka.
+Mike had an accident on his motorcycle and broke his leg.
+David went to Ethan's house to babysit. He had to go through a lot with Ethan's sister.
+Conrad forgot his keys. Tiffany will be home at 10-11. Rebecca will come back later. Conrad will wait in the coffee shop.
+There was a weird smell at Kasia's place last night. Ron thinks it was her boyfriend.
+Holly is not coming to Jake's party tonight because she has flu.
+Ludmila's favourite dinosaur growing up was triceratops.
+Josh and Logan are going to the pub tonight. Logan would like to meet some girls.
+Indiana left her phone at Liam's place.
+Claire is looking for a wedding dress. Nicole, Maria and Nicole think it's perfect for her.
+Victor has taken over Chris's company. Chris was under huge debt, but he is still working as Director. Victor sold off the office and accommodated the company in his office. David's business is slow but he expects it to get better by the end of the year.
+Patricia shares a fair-trade brand with Florence and Elle. Elle will look into it.
+Ethan didn't attend the part last night. He is currently in Los Angeles. He will be back in 3 or 2 days.
+Stan is going to take her to Pat&Gill's.
+Abby met Miro yesterday at the party. Miro's father came to the US illegally from Albania in the early 1990s.
+Julie is home alone watching a Japanese horror movie. Rose will bring cookies for the cocoa. Paula will come over and they will watch "when Harry met Sally". Paula will chip in for an Uber for Julie.
+Lucy's daughter is 15 years old. Lucy is not as good as she always wanted to be as a mother.
+Dan, Tim, Chris, Tom, Martin and Tim are going out on Saturday at 8 pm.
+Casey did her own nails for 4 hours. Amelia and Kristen want her to do it for them too.
+Sharol forgot the sociology assignment which is due tomorrow. Kate reminded him about it.
+Jamie was sick at school today. Jack is sick again. The school trip is off because half of the class is sick. Linda wants to know if there is any news about the school trip.
+Louise's mum hasn't seen her in two days. She's with Grace.
+Caroline's boyfriend's mother doesn't like her. Caroline is his first girlfriend and she's jelous. Caroline's boyfriend is 26 and lives at home with mummy and gramma.
+Vincent broke his lamp with his bare hand while playing with his cat. He ordered a new one and it should be ready on Tuesday.
+Nestor is thinking of buying a new laptop as Black Friday is coming. Olaf sends him a link to a website where people upload photos of the same product and its price 2 weeks before Black Friday and during the promotion. Nestor is going to the mall tomorrow to check if he can find a good deal.
+Phil, Vic and Nancy like to read the news online.
+Peter and Dan are not convinced about the guy with dreads.
+Sue will pick up James' car after work tomorrow and pay for it.
+Jess is stuck in a traffic jam in West Bronx.
+Dima's laptop is broken and he has to deliver a translation tomorrow at 9. Nada lent Dima her old laptop. Dima will pick it up in an hour.
+Kelly and Betty went to the pub at 2 am. They met more people from school. They didn't talk much, just hi-hi.
+Anne will invite Adele and Louise for Easter. Adele will bring eggs, chocolat ones.
+Peggy's computer might have a problem with the circuit board. It might be cheaper to buy a new one.
+Jerry is coming home in 40 minutes. Janet's day was ok but her boss is a pain in the ass sometimes.
+Mark, Anna, George and Julia are going on a self-organised tour. They will choose one of the cheaper options from the tour operator.
+Stanley can't go for the weekend with Del because of work. She accused him of having an affair. The analysis of tasks is not done yet, Alison disappeared from all the media and won't answer her phone. Bill is already researching when it comes to the funding. Stanley is finishing the analysis for the previous project and will start working on it today.
+Kimberly left the cafe yesterday with her pinkish-blue umbrella. She got it as a present from her Mom a few years back. Laura suggests calling the cafe.
+Catherine applied for an accounting position at Pandora. She will have an interview with Jake on Monday.
+Anna will go with Fiona to the doctor tomorrow at 8 a.m.
+Dan wanted to wash his hands but the pipe under the wash basin exploded. Andrea will write to the owner and Dan will do it himself.
+Linda is cooking a curry.
+Matt feels his parents don't treat him well. He stays at home too much and they have to pay more for electricity.
+Ann thanks Katie for hosting Tim on Monday evening and dropping him at the railway station next morning. Katie will send Ann's son a text to tell him where she wants to pick him up tomorrow.
+Sharon is 19 and lives with her parents. Her mum is angry and Sharon's parents will stop talking to her. Ahmed wants Sharon to move in with him.
+Rob is not sure if he's getting dumber as he's looking at today's memes.
+Mike will refill the hand sanitizer by the restrooms.
+Cheryl had an argument with her mother. She kicked her out because she forgot to close the window when she was leaving home.
+Victor will pick David up from the airport at 17:30 at Sevilla.
+Ann will pay 200 dollars for the laptop. Josh has a bag and a small usb mouse.
+Sara will do the washing up when she gets back from the cinema.
+Gary is driving for Uber. Ellie told him it was a terrible idea. Gary is having fun. Ellie is surprised by Gary's social skills.
+Leah gives Kristi a 20% discount coupon for the items on the online shop. Leah will get some accumulated money for the shopping next time.
+Steve will call Sue when he gets this message.
+Andre and Megan are shocked about the bear attack on the zoo.
+Mick didn't get the confirmation from AES yet. Barbara did.
+Alan wants to know why they doubled the costs in the line "other expenses" compared to last year when their boss had to come back from Japan for the convention.
+Liam and Nate will meet in 15 minutes.
+Duncan wishes Carl the best in this year's championship. Carl is using a 6 speed hydrolic shift gearbox. Duncan and Carl are going to watch their youngest cousin sweep the title. Duncan will reserve a place in the VIp.
+Dinny wants Terry to take his dog away before he comes.
+Anastasia and Darrell are happy with their new school photos. Anastasia needed a new one for her school ID.
+Kim is going to Seoul in April with Jane, who will be their tour guide. Mark and Agatha are going with Kim.
+Aubrianna's friend's dad died because of malaria in kongo.
+Josh lost his brand new sneakers last Tuesday. He has been to many places, swimming pool and fitness, but he thought he left them in the gym. He will try to check the swimming pool.
+It's Valentine's Day. There are a lot of vendors selling roses on the street in Warsaw. Bella will probably go to Korea to get regular check-up. Aria will come to Warsaw as soon as she quits work.
+Wheeler can't go to the ball game with Sawyer and Sutter because he's injured. The game starts at 6.30.
+Daina needs to put on her make-up for about an hour.
+Carmen will give Viola a helping hand on Friday night.
+Madeline and Alex had a little argument today. They are going for a beer tomorrow.
+Mom wants Betty to call Grandpa from time to time. Betty has been busy.
+William will prepare spaghetti alla vongole for dinner. He will add clams, garlic, wine and garlic to the pasta. Whitney is going to get drunk.
+Maria, Martha, Alexander and Lawrence will meet tomorrow evening at 17:15 to discuss the remaining questions after the IMF lecture and do the calculations. Sarah will not be there as she is working.
+Molly has a free ticket to the Muse concert in Cracow. Hannah doesn't like them. Anna wants to go.
+Tabby has 2 exams next week. Laura has passed all exams but one. Tabby will come to Daisy's party on Saturday.
+Coco is sitting on Becky's lap purring right now. It took them 2 days to win her over. Trent and Becky will let Joel know if they need anything.
+Kyra's apartment number is 187. Sosie will be there in 5 minutes.
+Clint wants to know how waste management works in Ronnie's city. Ronnie uses three different bins: compost, recycle and trash. Ronnie has banned plastic bags in grocery stores and straws in restaurants.
+Tina's phone is dying, so she can't call Adam. She will call him tomorrow.
+Natalie is pregnant. Dave is the father.
+Nick will bring Steve some chicken for lunch.
+Gemma wants to invite Timmy and his date to Lona and Michelle's wedding.
+Millie won't come to Sal today because she's sick.
+Daisy wants Lisa to be back before 11 pm.
+The bus is leaving in 3 minutes. Tina is almost there.
+William collected the quince for Sophie and put it in a basket on Noah's terrace. The twins are on their way from Notts tomorrow afternoon and passing Windfield. Noah and Sophie haven't seen them for ages. Sophie will talk to Frank and maybe to the twins too.
+Sarah is going to Ikea. She wants Harry to buy her a table cloth 120 cm x 140 cm, two medium size wardrobe organisers, one wooden spatula and three bottle cleaners. She also wants a Daim's frozen cake and a bag of meatballs.
+Cindy is sad and doesn't want to talk about it. Ellie finds it funny.
+Nadia and Jannet had fun yesterday. They will go to the disco next time.
+Mark wants to drive Jeff's new car. Mark and Jeff will bet 100 bucks that Jeff will let Mark drive the car.
+Sue, Julie and Ann are having a celebration tonight.
+Kathy's aunt is getting her haircut today. Kathy is going to get her hair cut shorter.
+Mr. Benson is in Peru discussing a contract with a new client. He needs Claudia and Andy's work while he's gone and things he needs from them asap.
+Den's mother cried over the TV program with Phil and Holly this morning. Den will invite her for fish and chips on Friday.
+Ludo is in room 112 with Hugo and Charles in class 3.
+Phoebe has money. Chandler wants Phoebe to open her door and pay the delivery guy.
+Rory's sister is studying in Shanghai. Shanghai has 25 million inhabitants.
+David sent a report to Russ yesterday. Russ hasn't read it yet. He will take a look at the report and send him remarks. He should be done with the report by midday. David will answer some emails.
+Catherine and the boys are going to visit uncle Steve. Ben doesn't want to go with them.
+Clay is in the class room. Kaya will be right there.
+Sean won't be able to take the car to the carwash because he has to finish his report first. Alice and Sean will do it tomorrow.
+Bert is getting home at 8-ish. Julia will wait for him with the dinner.
+The dishwasher has been installed for Steve. It is a 12 place setting one.
+Harvey is waiting for an update. Michelle is still researching.
+Bill and Joy miss each other. Joy is coming back on Thursday.
+The cafe Kohaku near Covent Garden is closed. Henry wants to reserve a table, but he can't find it anywhere. Julia wants to take her cousin there, but the place is empty. She and her cousin went to the Lilly's instead.
+Olivia needs to do her accounts and get all the invoices sorted by months. She also has a few videos she needs to upload to YouTube. Jake has a copyright dispute with Sony Music.
+Emily broke one of Linda's green tea cups. Emily was cleaning the cupboards in the dining room.
+Tom and Camilla are going to Dublin for 2 days this weekend.
+Sandra is getting better every day. Stella wants to take Sandra to the cinema. Stella will do some research in her friends' midst and choose the best movie for Sandra.
+Harley and Ruby are looking at a divorce filing. The man was a serial cheater and his wife is taking him to the cleaners.
+Ken is stressed because of work stuff, fighting with Brad and too much going on at mom's. He's going to see the grandkids on Sunday at the zoo.
+Today is derby day. Julius and Titus are supporting Manchester United.
+Addisyn and Dexter haven't talked for a long time. Dexter misses Addisyn.
+Jason was absent today. He had a dental appointment.
+Don has a meeting with management board today at 2 pm in the conference room and a trip to the beach next week. Cindy has got his plane tickets and booked the hotel. Andy didn't read the agenda.
+Samuel is at a joint in Laos. The owner bribed the police. Virginia and Jack love the happy menu.
+Mike wants to go to Croatia for holiday.
+Jasmine and Paola love Charlie Puth's new song, Galway Girl.
+Sharon will have her roots done on Sunday at 2.30. Jaz will pop the appointment in her calendar.
+Pete will be home in 20 minutes for lunch.
+Kas will let Laura know tonight if he can tidy up her dreads for her this weekend.
+Jill can't do more than 3-4 per day for 40 hours.
+Mia and James are going to an art exhibition tomorrow. Amelia will go with them. They will go to the exhibition and to the cinema.
+Mariana and Chae-yeong want to know if the readings for the next session of Stephen's seminar are in the print shop. Rita can't buy the copies for them because they never have enough. Rita will let them know tomorrow morning if the texts are available.
+Ost bought a garage place in Belgrade. He intends to rent it out and do the restitution of his money.
+Julia will pick Hania up from the platform when she passes Żyrardów.
+Gavin and Kaylee don't like each other.
+Lara is coming to Marika today.
+Mazie and her girls are having a drink tonight. Lee can't stand some of Mazie's friends. Lee spilled a drink on Sheryl.
+Zachary will bring Erin a piece of the cake she baked.
+Joseph had three job interviews in two days. The first two were ok, but the third one didn't seem to like him. He's going to be a concierge until the day he dies.
+Sue will send Graham some dates for weekends in Romford. Louise wants Graham to focus on motorways this time. Sue will let Graham know when Louise comes back.
+Brett, John and Andrew are playing World of Warcraft. Andrew's favourite game is the Final Fantasy series. Brett's cousin met his wife there.
+Rael hates her job. She doesn't have time to eat her lunch and doesn't like her manager. Rael doesn't know what to do with her career. Zach advises her to try IT.
+Susan had a great date. They went to a rollerskating disco.
+Joe and Pete are going to watch Deadpool 2 with the guys tonight.
+Euodia doesn't know what Tiktok is.
+Hugh sent a photo of his son to Julia and Joan.
+Nathalie, Anthony and Jacob are going to Greece in August. They need to be back by August 10.
+Lori will be at Copley in 10 minutes. They were supposed to meet at Prudential. There is a traffic jam.
+Marta found out that Jay lives in a studio apartment in the outskirts of town.
+Telly, Chuck and Ally are not sure about going to Luke's party on New Year's Eve. There's also a party at Bernie's. Ally will check it out. Telly will let Chuck know when he makes up his mind.
+Karen passed her driving test.
+Gill needs a new peeling. Bunny advises her to make her own.
+Ryan is visiting family in Manchester. Chris stayed home with Ann for the first time.
+Bruce's crowdfunding campaign has reached 6132 dollars.
+Liam will pick Kane up at 8.
+Kate had a fight with Chris. She doesn't want to be friends with him any more because of his political opinions. He thinks Mexican children are worse and should be kept away from the US.
+Celine and Mark went on skates for the first time. Mia would like to go with them.
+Sarah is going back home for Passover on the 28th. Lia's family wants her to come but the tickets are expensive and she has a lot of work. Sarah bought her tickets yesterday for 500 quid. Sarah and her family are going to Negev desert. Lia will talk to her mum later.
+Gene sent Jack a package on Friday. Jack hasn't received it yet. Gene will send him the tracking number.
+Miranda wants to cancel tomorrow's meeting with Stephanie because she has to work 20 hours a day.
+Blake will wait for Clara and Jenny on the platform at fabro-ficule.
+Raymond has a regular cheese and pepperoni pizza and some pesto pennes. Charlotte will come over in 10 minutes and bring the pizza and wine.
+Zack and Dwayne are going to watch the new Jersey Shore season.
+Will is standing in a long line at the post office because he wants to send a traditional letter.
+Serena and Ella went to the new Cork club last weekend. It was empty. Ella won't go there again.
+Molly, Peter, Kai and Margaret are going to Sweden for a week in January. They will visit the Vasa Museum.
+Frank doesn't have any plans for the weekend. Avril is going to see horse racing. Frank will come with Avril.
+Xander and Adam are going to Multisports this week. Mel will pick them up at half 10 tomorrow.
+Ethan went to the gym every day this week. Ethan will pick up the kids at 9 pm. Ray and Dustin will be waiting at Ethan's place.
+Diana is going for a hip-hop workshop and wants Frann to come with her. There is an open level or beginner level class. There's a form to fill in at the bottom. Diana will see Frann in a week.
+Pam lost her iphone. She went shopping and left it on the counter. There is an option where you can display something on the screen and post someone's phone number. Pam is going to check it out.
+A student was beaten and mugged on campus. The assailant had a mask on. The victim is in the hospital. There will be an article in the paper about it.
+Deborah and Nathan are going on a trip to the forest tomorrow. Nathan will pick up the girls from school and they will have some alone time while the rest of the family is hiking. Nathan and Deborah will have a ride to the cliff where they were last year. Deborah forgot to buy some syrup for travel sickness.
+Casper, Alexander and Igor are not going for tomorrow's classes with Mr Linda. They are going to meet near the university and work something out.
+Judie's girlfriend had a tattoo done at Warsaw ink. The price was 1000. Javier wants to get a tattoo back in Colombia.
+Sam will be at the hotel on the 15th of August around 2 p.m.
+Marsha, John, Gavin and Mohammad are going to spend a week on the beach in Nosy Be in Madagascar.
+Cyprien was educated in Loughborouogh. He was born in Jarrow and lives in London now. Cyprien comes from Planet Earth.
+Joanna needs to get the coffee stains out of her ecru dress. Ethel advises her to leave it at the dry-cleaner's. There is a cheap one at Jagiellonska 3.
+Charlie doesn't want to have a pizza with Anna tonight because he's still upset about all the things that happened.
+It's cold outside. Kris and Ovi don't feel like going anywhere. Jason has been running around the city all day. Nadine's clinic is getting lots of sick patients.
+Leticia lost her wallet. She will call the bank and block her account.
+The deadline for the application is Friday at noon. Paula hasn't got the paper from the office yet.
+Steven and Ben will have pizza tonight at Marco's.
+Daniel took Terence's money. Terence has just found it.
+Lucy has not thrown the garbage out as per parents order.
+Willy wants Vinny to lend him a Mustang and a red one. Vinny and Willy will car pool a couple of days a week.
+Lindsey has just finished her class. Earlier she asked one girl to put her name on the attendance list instead of her. Last week she asked another girl to do the same.
+Dory's friend is coming over the day after tomorrow. She will stay for around a week. Jason and Lucy are working on the movie. Jason purchased the app in which to video and to edit and Lucy has a script.
+Jared wants to ask Kelly out. Michelle doesn't want him to ask her out.
+Reeve, Winslow, Booker, Dodson and Trish are going to the seaside for winter break.
+Zayna and Alex will meet for a drink tonight at 8 pm at her place.
+Grace didn't get to talk to Audrey at the party last night. She's excited about graduating soon and considering applying for grad school. She also considers taking a year off.
+Monica sends Natalie the recipe for her famous cheesecake.
+Ethan will send Jason's phone number to Dixie in a minute.
+Amanda watched parks and rec. She's not a fan of the main character.
+Bob bought a game and wants to play it with Harry. Harry has a broken car and a shitty job.
+Randal got everything except the nail polish. He doesn't know which one to buy. The shop assistant is looking at him weird.
+Mike and Pat will meet up one day to play basketball.
+Nate and Julie are overbooked for the first day dinner. Nate has to create a new Excel file and feed the data into the tables himself.
+Farrah shared her fossil collection with the 4th grade students. They loved it. Enrique will give Farrah's name and number to the teacher.
+Zoey and Thomas are in the tropics. They had a walk around the summit of Belchen on Sunday.
+Trinny, Susannah and Linda will meet at the main entrance at 6.
+Emma and Daniel are going to Amiens tomorrow. They will meet at Emma's place at 9 am.
+Pet shop offers 10% discount for new customers when they checkout. Breann and Dianne are going to buy a dog and a cat.
+Hugh will make the base and prepare everything earlier, then stick the pizza in the oven.
+The next ASEEES conference will take place in San Francisco.
+Finn's package has left the warehouse and will be delivered to him tomorrow.
+Rhonda will send the content for the November email blast to Precious.
+Derek McCarthy needs to borrow an Android cable for an hour. Tommy is in Poland but can lend him his wife's power pack. Tommy's wife Paulina will give it to Derek. Derek will pick it up at 8:15 pm.
+Judy will feed Derek's animals on Friday and Saturday. Derek will give Judy his keys on Thursday.
+Laura, Oona and Sid are going to see Aquaman on Thursday at 8:10. Oona will buy the tickets for them.
+Rob is going to start the Get off the couch challenge with 30 minutes of activity every day. Greg, Will, Anna and Will are going to support him.
+Bennett and Cynthia are meeting to go to a new hipster bistro.
+Lorenzo has just arrived in Tuscany. Will is on the train in Arezzo. Lorenzo will take the keys and go to the room.
+Booker and Walker are going to play games all night. Walker will bring his Xbox console.
+Laura's mother passed away this morning. Anne and Kristian will come to see her now.
+Keith and Adam miss going to the cafes by the river. They want to re-build them, but the cost is too high.
+Ana, Carlton and Katy are going to see a film by Lola Arias on the making of the play they saw last year. Ana and Carlton will meet for dinner and drinks at Katy's place on Saturday at 7.
+John sends Henry the Bristol Stool Scale. Henry had a nice poop this morning. Henry is never really constipated.
+Patricia and Mary are flying to Japan in a week. They are scared of the long flight, earth-quakes, and tsunamis. James assures them that Japan is safe.
+Linda won't be able to do any gardening before leaving, so Mika offers her some plants.
+Drade's brother got angry and left the group chatting room. Drade didn't do anything wrong, he just said what he had said was wrong.
+Kate broke her arm and they're sending her to the hospital. Greg will call Linda or ask someone at the reception if their medical insurance covers hospital costs.
+Charlie's sister has just passed her last exam on her Uni. Frank will go out with them tonight.
+Clara is at the gym and won't be home before 7:30. Bella wants to have a talk with her. Clara will bring a snack and bring wine. Bella will park somewhere along the road as her drive is taken by her camper.
+Jose, Ricky and Amanda wish each other Merry Christmas and Happy New Year. They are looking forward to 2019.
+Rob will be home tomorrow after work. Susan will cook something special for him.
+Dominique and Denise will take the test tomorro.
+Steph and Sharon like the colour scheme of the lamps, but Steph still needs to buy proper hangers from copper.
+Anna will call Peter in 20 minutes.
+Jesse broke Stig's razor.
+Patrick changed his phone number to +44 7700 900077.
+Yvonne's uncle Sam is in hospital. Chiara sent a photo of herself and Yvonne in Chicago 2 weeks ago.
+Jack is making mushroom soup. Thomas is on his way. Jack will wait with cooking until Thomas arrives.
+Debbie will bring Helen's laptop to work. Helen has a presentation today.
+Jessica got a plant for her birthday and it's dying already. Boston looks up how to care for it on Google Images.
+John lost his job in Germany. He was the only one who received an offer from the company to be relocated back to London, but he didn't accept it. Annie had already enrolled in German classes and was starting to feel at home there. Annie and John planned to stay there for at least 5 years. Amber will have to look for a new flat.
+Vicky, Greg, Michelle, Audrey and Ryan are meeting at Fratelli's at 7.30 pm.
+Kaylin set three alarms for tomorrow. Amir doesn't feel like going to work tomorrow.
+Lois can't access her aacount. She created it when she was 10. Her sister is grounded for the month.
+Natacha will pick Charles up at Vesinet station at 5:30 pm.
+Simon was on the phone, so he didn't hear Helen's call. He will fetch some tissues for her.
+There's a blizzard outside. Tom and Shelly went hiking in the mountains a couple of years ago. There were 5 or 6 of them. They rented a cabin in the wild.
+Lucy wants to go to the gig together with her best friends. Maggie and Lucy will meet at Maggie's house at 6 pm to pamper themselves.
+Payday's tomorrow. Rose and Jake will start thinking about Christmas gifts.
+Martha saw a documentary about minimalism gurus and she felt mixed about it. Jake thinks minimalism is bullshit.
+Albert has just passed his 4th driving exam.
+Jaya hasn't seen her mother in the club for almost 4 months. Ravi's mother has been suffering from arthritis for almost 5 years. She is abiding by the doctor's advice, but prefers to stay at home most of the time.
+Lynn doesn't want to have sex with some old wrinkled guy who rubs his old saggy balls all over her. Steviee and Justin don't believe that sugar babies don't actually sleep with them.
+Alice has had a terrible flu. She hasn't taken any vaccine. She's been home for 10 days.
+Sandra left a present at Marco's place yesterday. Marco will bring it over.
+Mum will wrap something up for Steve.
+Zariah has a lot of pain in her back. She thinks it might be because of the bed.
+Hannah has plans for tomorrow evening. James will pick her up at 8 on Saturday.
+Rachel and Caron will meet at the Red Lion at 8.
+Sara wants Victor to help with the event she's organizing this Saturday, but he's busy.
+Wendy has grown prettier since she came from Houston. Dave is going to hit on her soon.
+George will call Patricia in an hour.
+Mario has landed in every airport in Europe today. He is waiting in Luxembourg now.
+Lena and Brian don't want to do the homework due to the new professor. They will do it tomorrow at philosophy class.
+Elvina and Averil are going to the local theatre. Booth was there the other day.
+Callum is busy and apologizes to Jair.
+Jacob will reach the parking lot in 10 minutes.
+Molly met up with Chuck on Friday. Chuck made a story up. Molly is going to kill Chuck.
+Sally and Rita like Borns' new album "God Save Our Young Blood" and Florence's new single "Florence".
+Gloria is too poor for her lifestyle. She made sushi and tiger prawn korma. Amanita advises her to cook more.
+Haley found an old photo of Bella when she was a kitten. Bella is now middle-aged.
+This Christmas at Wall Street was the worst since the end of the 19th century. The economic war on China and Trump's unpredictability may cause a global economic meltdown in the early 2020s. 2019 should be calm, but the global economy will get weaker.
+Alexa asked Ethan to insult her. She was jealous to see Hunter with Ethan that day. They will talk about it tomorrow.
+Ann has extra math classes and will be home at 7.
+Lorenna will not come to the party tomorrow as she needs to take Emma to the doctor as she has a fever.
+Iga cancelled a weekend getaway with her boyfriend because he couldn't talk his group into changing the date of the presentation. They haven't been sitting together since Monday.
+Samuel's Telugu language is spoken in South east India. It is based on Brahmin script. Teluguland has nearly 90 million speakers and 23 provinces. Samuel is 35 years old. Tim is 55.
+Pete's brain is like a sieve today. He wants to buy pear yogurt. Jen doesn't like any other flavour.
+Eve, Charlie and Nicole are meeting at the entrance.
+Jenkin is a dolphin. Sophie is a fox. Jenkin will bring Sophie's spirit animal tomorrow.
+Daisy will send Scarlett her RGS application right now.
+Katie and Christie are tired after the party.
+Carla is not working tomorrow. Sam and Carla will meet at Meanwood cafe at 2.
+Lily needs to rent a pop corn machine for her office Christmas party. Daniel will check who rents them.
+Louis wants to buy something for Lilly and Stephen for the wedding. Sara is on a meeting.
+Chris tried jogging today. He was afraid that he would collapse after 50m or so, but he did quite well. Matt is taking pills that slow his heart rate.
+The second season of Punisher was better than the first. Eric and Dan think Netflix should have given Jigsaw more scars.
+Geri needs to buy some new shoes. Hilary found some great ones at the mall yesterday. They will go together tomorrow after work to get some frozen yogurt.
+Top management is coming from France next week. Jacob and Alex got an invitation via Outlook to the meeting.
+Joana will bring some games to Sandy.
+Jenny, Joan and Jeremy are going to the 8th av concert on Saturday. They will start with a drink.
+John and Matt have practice today.
+George and Blake are going to meet.
+Steve bought the new Dream Theater album 5 minutes ago. Rob has it on his desk ready for the first listening.
+Martin will buy two milks for Alex in a couple of hours.
+Hansel will tell his sister to text back to Jeremih.
+Joy sends Peter the link of her beauty shop.
+Emma and Josh spent New Year's Eve at Josh's place. They drove to the seaside, visited a bunch of clubs and ended up on the beach for midnight.
+Andy is working late until 4. Sue will be there by 8.
+Shari and Stewart don't want to vote for the Democratic candidate, because he's an ignorant man. Shari's friends voted for him just to see what would happen.
+Lydia added him on Facebook and he accepted her invitation. He is engaged to her. She is trying to ignore him, but he is still texting her. They work in the same company.
+Daria got a new job for a law firm.
+Sarah is too low on the totem pole and will not be allowed to take time off. Boris will give her first choice of dates the week after. Sarah will come to Boris to amend her request for the following week.
+Blair and Chuck are meeting with the wedding planner after work. They are meeting at Nonna Rita's to order seafood tagliatelle.
+Ruth hasn't replied to Alan's email. Alan is sending it to her right now.
+Oscar and Payne will meet for a coffee at Tristano's in 15 minutes.
+Frank and Hope love each other.
+Gina sent Luke a photo of the parrot she painted yesterday.
+Tina and Steve will meet in the car park to do some shopping after work.
+Rudi and Henrietta didn't see the last video of Donald Trump talking about congresswoman.
+Luis and Cole are in the same room. Cole wants Luis to pass him his pillow.
+Daniel passed his driving license exam. Kate congratulates him.
+Samuel Anderson won't come to the meeting because he has an appointment with a doctor. Katherine Jackson has a retake.
+Rosie is better today, but not good.
+Veronica doesn't speak French. Ty needs a translator.
+Emily is waiting to see her doctor and a nun and a blind crazy man are waiting with her.
+Lisa, Mary, Sarah and Frank will take him to Aquarium.
+Mario wants Conor to bring him a bucket of fries from KFC.
+Ditty came back from work last night. Inga collected a parcel for Ditty just before Xmas. Ditty will be home around 6 pm.
+Damian, Jacob and Mason didn't watch Chelsea's game because they were busy all afternoon. Huddersfield beat Chelsea 2-0.
+Jay has convinced Ruth and Paulette to accompany him to the concert. Joe will be the one doing the connections.
+Robyn drank too much last night.
+Aaron has a connecting flight in Cairo and might leave the airport for a few hours to pass the time.
+Gino is not sure if he should wear the white shirt or the black shirt. Renee advises him to stick with the black pants, white shirt and brown shoes.
+Richard will be waiting for James at 6:15.
+Caleb sent Ella a picture of Maya playing a mouse in a school play.
+Javier reminds Marco to sign the attendance form when he arrives.
+Josh and Michelle are going to the movies tomorrow night. Michelle will pick Josh up at 7.
+Sophie and her lover boy are thinking of breaking up before Uni. Yaz and Tania are going to the pub on Friday at 8.
+Anna and Jerry are discussing the history of their civilization.
+Jacks played on the Bulls Eye poker platform several times. He made a few bucks on it. Robin is trying to read up on the game. Jacks will send Robin links to some good sites.
+Sergio prepared a speech for Ulrich's wedding. He will talk about how Ulrich has been a great friend.
+Edward and Lauren don't want to go on a business trip tomorrow. Kate and Edward are going to an expo.
+Robert is meeting Darek at 5 pm. Gabriel quit the office about a month ago. Robert casually came to visit his old pals.
+Susan's presentation was a disaster. Becky has a fever. Tom will pick her up and take her to her mother's house.
+Noah, Leo and Archie are going to see Solstafir on Wednesday at 21.11. Noah might have to stay late at work.
+Marleen will be leaving in half an hour to go to town. Barry doesn't have any ideas for a present for Rita.
+Lucas is free in the evening to have a beer with Johnatan and Darren.
+The cake is still not ready for Zandra's daughter's birthday party tomorrow. Tricia will send Erwin to get it by bike. Zandra has to make decorations for the party. The food and outside attractions will be done by a company.
+Laura didn't get any replies from Sarah and Raf. Laura is in an exotic little island called Linate.
+Adam is going to the exam in 10 minutes. Dave and others are nervous.
+Paul will be home later than he thought. He will call Lena in 15 minutes.
+Bob and Nigel like Felix Laband. They went to the concert last night.
+A cat invaded the pitch at Goodison.
+Uncle Jayson congratulates Ewan on his graduation.
+Daniel, Matt and Brian are going to Bosnia and Herzegovina. Brian will pack his passport.
+Ross and Chandler are going to do karaoke tonight. Ross will sing George Michael. Chandler will record everything.
+Poppy and Harry prefer Lisbon for the night. Poppy doesn't like parties. Harry prefers sightseeing.
+Gyle is on his way home because something happened yesterday.
+Kate and Regina had a good feedback on the presentation. Three people came to listen to it.
+Barbara invited Sean to stay overnight. Zac is on his way.
+Kyle is working for his Uncle Kev at the building site, his cousin was taken on with an apprenticeship in bricklaying last year. Quinn is going out tonight after school is over for a bit. Quinn and Kyle will meet outside the club at 6.
+Dick wants to buy an apt in building 32. He will put 10% down as a down payment. Frank will come and see the apt in 30 minutes.
+Steven and Mia will meet at 8 to grab Chinese food before the movie starts at 9 pm.
+Lilly and Marshall can't go out tonight. Lilly will come over and they will watch some netflix.
+James is out of the team because of the coach.
+Stu's IT friend, Alex, downloaded Open Office and some other programs and put them on a CD. Priscilla bought the software online.
+Salvage Industries is a waste disposal company. Helen will double check if they have no PR problems.
+Ginger needs some sugar. Phylis is baking a pie.
+Robert is with his kids now, so he can't join Anthony for a beer. Anthony will go for a date with Andrew instead.
+Jill is bored at work. She needs to find a job. Nate will call her when he gets off work.
+Jake pulled a TOTW this year. He will try him in one or two matches, but he's not a good fit for his squads.
+Victoria and Rosemary are going to record the drums this weekend. Rosemary doesn't have a working laptop. Victoria has a tablet running windows 10.
+Jordan got his birthday card and £20 from Cass. He likes Thomas the Tank engine.
+Jane will be 10 minutes late as the bus is running late. Alex will be waiting for her by the left entrance. She forgot to take the file with the xerox copies.
+Ken had a bad day yesterday. Ellen is worried about him.
+Phil and Deana are going to look after Adrian's sunglasses. Deana found them in the empty place above the radio.
+Alice's dad is coming over for a month to decorate Jo's place. Alice has her yoga class at 6:30 and she will be back home at 8. Kim will be there after 8.
+Kelly asks Jessica what's the scariest place she's been to. Jessica tells Kelly about Palermo in Italy and the Capuchin Catacombs with 8000 corpses.
+Spencer gets around £1000 of work a month, before commission and tax. He works 16 fixed hours at the cafe and spends the rest of the week on his illustrations. Maria wants to go part-time freelancing.
+Tim is thinking about inviting a few people from work over for a newbie gaming evening. He consults the expert on the matter, Joe, who runs the local gaming club. He advises Tim to start with co-op games, like Arkham Horror, Robinson Crusoe, Pandemic and Codenames.
+Richard and Anne are going to meet at Starbucks at 3 pm tomorrow to start their project. Holy is out of town and will be back on Monday.
+Gurdun is not sure if he will be back at the uni this week, but he hopes to be back on Wednesday. Russ had a flu three months ago. The team won the last match. Gurdun needs to run.
+Leo sends Charlie and Oliver a video. Charlie has mixed feelings about it.
+Thessalia and Mike are celebrating Christmas with their parents.
+JP doesn't want to play with Samara because he has to go to work.
+Michael can't make it today because he can't leave the office before 8 pm. He will call Tom tomorrow.
+Kevin will buy Dan a sandwich on his way to work.
+Poland is one of the last countries unspoilt by uncontrolled migration and terrorism. The country has a chance to develop in fast pace and avoid all the mistakes other western powers made. However, there is a risk that internal conflict will rip the country apart.
+Tilly had to go for detention. She will be home in about 40 minutes. Sam will call her when he is home.
+Mell, Gloria and Tad's sister will have a BBQ at Gloria's place at the weekend.
+Whitney will take Hailey to I-max cinemas on the day Aqua man is being released. Shadrack and his girlfriend will be accompanying them.
+Jenny got a punching bag and George got a cooking pot. George's wife wants him to help her in the kitchen.
+Lincoln broke the hinge on Hudson's toilet seat. He will buy a new hinge.
+Katherine will bring her daughter to Kayla's place at 11.
+Lorena got a new desk and it comes with assembly instructions but she can't do it. She needs it for the weekend. Lorena will let Martin know when he can help her.
+Ralph asked Everett for Amy's phone number. Everett introduced Ralph to Amy last week.
+Ross has to work for 2 hours tonight. Ross doesn't want to disturb Diane, because his career depends on it.
+Ed, Chris, Lor, Atnee, Jessica and Matt think sex is for married people. Ed thinks sex is only for procreation.
+Cristina and Gaya will meet next week to discuss the shoot. They will meet at Gaya's studio.
+Bon Jovi are coming to Poland next July. The tickets start from pln 250. Matt, Phil and Tony will buy the tickets soon.
+Dan will split the food from the BBQ equally. Vicky, Ashley, Gerardo, Eric and Gery cooked their own chicken and asparagus.
+Camila and Harper will buy a bottle of wine, take-away and stay in for the evening. Camila will order a delicious meal from the restaurant about which they talked last time. They will watch Ugly Truth.
+May, Michael and Vanessa are on their way to Harry's birthday party. Peter is stuck in a traffic. There was a serious accident. Harry is in the same traffic as Peter.
+Callan's Samsung S8 overheats and it takes a while for it to restart again. He's going to the store to let them see it.
+Mike is in London. Jake is happy for him.
+Andrea can't come to work today because her son is sick. Patrick will take care of her son for the next couple of days.
+Phil is still in the shop. He is standing in a gigantic queue. Nancy will make an apple pie for Phil.
+Bryan's manager will send the payment to Piper tonight.
+Pogba scored his first goal of the season.
+Sybille is trying to register her son for a flight from Minneapolis to Paris on Air France flight AF3581. The flight is operated by Delta Airlines for departure from the United States. Sybille's son couldn't get his flight yesterday, so he has to sleep in the airport. Air France offers him a departure on flight DL140.
+Natalia, Harriet and Lara will book a flight today.
+Hans wants Slade to come to the practice and bring the ball.
+Holt wants to buy his sister a set of DVDs and some cosmetics for her 21st birthday.
+Roxana, Summer and Georgia like Georgia's outfit.
+Miley doesn't want to go to work tomorrow. Aaron wants some holiday already.
+Greg is coming to BG for a business trip and will stay at Nina's place for two nights. He will be going directly to work and then back to the city.
+Amal and Amir saw Beyonce's tweet.
+Alec sent Alexa a link to America's Got Talent. Alexa liked it. Alec thinks America's got talent has the best candidate.
+Kelly still hasn't received the rent money. John sent it to someone else's account. John will have to go to the bank tomorrow and ask if they can re-send it to the right account.
+James is not watching the game because he has to go to work.
+Lilian is at Helen's place because her phone battery died.
+Barbara asked Freddy to sing at the school concert on Friday. Freddy will send Simon the backing tracks for the things he likes to sing. Simon will send Freddy his email address and he will send him the attachments on that.
+Tommy got home from the station. His mum didn't pick him up because she took a bus. She's at school already. Wayne and Tommy will do it again in the evening.
+Tobias and Trevor are going to have a beer at Tobias' place at 9.
+Israel hasn't had the time to sew anything yet. Autumn hasn't checked the tests for a month because the dress wouldn't sew itself. Autumn will post photos of the dress on the site soon.
+Henny wishes Frances a happy New Year. Frances is back from the Vosges. She had a great New Year's Eve.
+Paula can't get past 637 levels in the game. Stewart suggests looking up the cheats online.
+There's an ad coming up to be a computer investigator and you can earn almost 80 thou.
+Jackie's sister got pregnant. Her plan was to have a baby 2 years later. Jackie is worried about her and her brother-in-law.
+Mike, Joseph and Sean are going to the lecture tomorrow morning. Sean doesn't want to go because he likes to sleep.
+Anna has a stomachache. She had cereal with milk and a banana for breakfast. Joanna will get her a hot tea with fresh mint leaves in ten minutes.
+Ziggler will bring his passport tomorrow.
+Jeff is in the little room next to the reception. Kate noticed a woman making a cake with a huge penis on it. Sam wants to see it.
+Kirsten is going to talk to 'old heads' on the issue of insurance. Larry and Kirsten are going to take legal action against the current BoD.
+Chloe wants to go on a walk with the dog when she gets home, but she doesn't know when she will be home. She was going to go to Megan's house tonight. Her dad has to work late tonight. She will come home and let the dog out.
+Natalie's wallet is in her room.
+Phil is on his way from one client to another. Rob needs to see Phil in person. Phil will be in Rob's office first thing tomorrow morning.
+Martin wants to talk to Nicole in person, but she's busy the next few weeks. Martin is an asexual and doesn't want to break up with Nicole.
+Mike woke up with an allergic reaction.
+David wants to get a new tattoo. He is thinking about a scull and rose on his back. Mike will go get one with him.
+William is making spaghetti. Olivia will buy some fresh tomatoes. Beth will have some chocolate for after the dinner.
+Karen is worried about the road from the swimming pool to Waitrose. Peter is almost done with his presentation for the repairs team tomorrow.
+Nick doesn't know what internet connection they have. Matt needs it for the application. Nick will let Matt know when he remembers.
+Gabriel and Baron have a match next week. Gabriel's tutor wants to join them. Baron will sign on the calendar.
+Mia, Peter, Jennifer and Karine are worried about Donald Trump.
+Madison and Adam are going to Thailand. The tickets cost pretty penny, but the rest is extra cheap. Children under 12 are 50% off.
+Tina needs to learn how to transfer from hating men to fucking them as soon as possible. Demi suggests organising workshops on that. Tina and Demi are going to meet.
+Nanna has broken her leg. Nanna will visit Freddie and Winnie soon.
+Mark, Phil and Clint are going to see 'Batman' this Saturday at 7. Mark will get tickets for them.
+Andy has done some tests on the mould in Betty's spare bedroom upstairs and in the dinign room. The mould is caused by condensation on the windows and around the windows. Andy will install a fan system or PIV system, which would circulate air to dilute and take some moisture out of the air. He will send Betty a detailed quote for the work via email.
+Warren locked the door for Gina.
+Claire and Aaron are going to a conference about relations at school. Aaron is giving two lectures. Claire is going to Jo's workshop on teamwork.
+Rob is going to sell his flat to a friend who's relocating to another city and offers a good price. He and his wife are thinking about having a baby.
+Evan will try to make Ethan come to the function.
+Daisy is in Naples. She took a ferry early in the morning yesterday. Daisy and Charlie are heading North. Daisy will be in New York from 1-5 September. Charlie will take a train to Florence.
+Adele is still listening to the song Kode recommended her. Kode gives Adele the whole Album in USB.
+Leah told Ian that he dumped her years ago. Ian doesn't know Claire. Maddie will ask Claire next time.
+Violet is going on vacation. She needs to make an appointment at a waxing salon. Paisley recommends shaving with the grain instead of waxing.
+Suzy asks Linda to follow her on Instagram.
+The trade deadline is today. John would like to get Lamar Jackson, but the consensus is that he's on waivers. John is hoping RGIII and Brock play or just wait. John has never seen a ream trade a big time RB or WR for a quarterback this late in the season do anything in the playoffs.
+Amelia's mum was on a crazy diet and she gained 5 pounds.
+Carrie, Gina and Alex are talking about Fantastic Beast. Gina saw it last week and she loved Eddie Redmayne as Newt. Alex is thinking of going to see it with Lane this weekend.
+Amelia can't tell Emily what her favourite colour is.
+Mary moved to Southampton in December.
+Shanon, Victor and Oliver are happy that their teacher has been fired.
+Alex likes the flash better than superman.
+Marek sent Adam a photo of an ass he found in a shopping mall escalator.
+It's supposed to rain so the river bank parties are not an option. Mark and Daniel will have drinks at Daniel's place tonight. Daniel's sister is visiting.
+Bart bombed his economy final and ended up with a bad score. He didn't study as much as he should have. Bart will re-take the class next year unless he keeps screwing up.
+Margot bought a bottle of wine for Nancy's birthday. Yvonne hasn't bought anything yet.
+Lindsay and Finlay came to Elliot's birthday party. Elliot loved it.
+Jennifer and Jack are going to watch the latest film on Netflix tomorrow evening.
+Sean has decided that his spirit animal is a tortoise.
+Susie is great. Mary sent Henry a photo of the baby.
+Patti will pick up the cat from the vet later.
+Kate is at the grocery store. George will get an apple for school tomorrow. The tangerines are coming next week.
+Sam wants to buy a pair of white earphones for £187. He will have them delivered to him through a courier. The total cost is £180.
+Kelly, Meghan and Mary will wear red dresses and bright red lipstick.
+Kate will borrow Emilly's blue handbag for Monica's wedding on Friday. Emilly will bring it to the office tomorrow.
+Monica has a free usb in her office. Gina will come to Monica's office in room 112.
+Nathan wants to buy a bike in spring. He got a stationary bike so he can be in shape during winter. He walks 25 km everyday. He wants to walk 100 km for the summer.
+Jason likes the DC Universe better than the marvel. Parker downloaded the latest episode of arrow season 7. Parker will text Jason when the download is done.
+Michael is at the airport on his way back from a 2-week trip to Brazil and Chile. He's going to Boston next weekend. Michael is thinking of resigning from his job.
+Jacob will pick up the fruits from Carol's garden on Wednesday at 6 pm.
+Molly can't think today. It's the silly season.
+Janette has got mice in her kitchen.
+Lawrence is not through with the article yet, but he will be in a few minutes. Madison wants Lawrence to finish the piece by today.
+Julia's parents are having a fight over where to eat. Julia doesn't want to eat with them anymore.
+Agata's new job is in JavaScript, not Java. Agata's husband doesn't complain about his new job.
+Luz and Alejandro are going to meet for the first time in 2 weeks. Alejandro will pick her up on 20th December at 4 PM.
+Sam started the career mode in fifa. It's different from the one in 18 maaan.
+Ethan will buy a kebab for Damian.
+Hannah will remind Dad that the plane was rescheduled and will arrive one hour later. Adam will be there in less than 24 hours.
+Matthew has a cold. It's an allergy mixed up with virus. Lisa advises him to drink orange juice and make soup.
+Kyle's car is making a weird noise so he can't take Joyce to get Harry. He will get him by bus.
+Bailey's closet got too small and now the fabric's creeping onto the shelves. Mikaela had to buy a box at Ikea.
+Susan and Toby spent a romantic weekend in a 4-star hotel near the beach. Toby proposed to Susan and she said yes. Melissa will send Susan some photos.
+Olivia is having fun with her grand daughter Linta. Eva has to go home in an hour. Olivia will make a bottle of milk for Eva.
+Jack will be 10 minutes late. Laura will wait inside.
+Breonna, Melissa, Hailey, Holly, Michelle and Christine are talking about men grabbing women. Hailey had a friend get yelled at by a girl for 5 minutes because he held the door for her.
+Zoe sends Frank a video.
+Stefano and Josie like Eco's Foucault's Pendulum. Josie wants to read one of his novels in Italian. The Name of the Rose is difficult for a foreign speaker of Italian.
+Evan has the flu and has to cancel his lesson tomorrow. He will reschedule it for next Thursday.
+Amanda is going to a concert in the city park around 9 p.m. Patrick and Camille will join her.
+Bobby is annoyed by pharmaceuticals, medicine and drugs. He was watching a film last night and in the commercial they mentioned a name of an illness he has never heard of. He did some research and found out that such an illness does not exist. The pharmaceutical industry is worth at least $1.2 bln.
+Greg has some notes from statistics that are better than Dave's.
+Sally doesn't want to go out with Mark because she doesn't feel well. Mark will pick her up.
+Sandy and Joy are going out on Friday evening. Joy will be ready at 11 am. Sandy will be late as she has to take a shower. Lina found her dresses very nice but she thinks they have too much cleavage.
+It's raining. Val and Candy will wait half an hour to see if the rain stops.
+Ted found plasters in his shower and kept them until this morning.
+Kyle will call Lily and Mary in 10 minutes.
+Taylor invites 10 people to his house tomorrow at 8 p.m. because his parents are away. Harry is in.
+Sierra and Jeremy haven't received the grant yet. Tomas is completely broke. Sierra will lend him some money.
+Charles and Camilla are going to visit the German markets in Birmingham and Manchester this weekend.
+Pamela will check the RGS website to see if she has to be a member.
+Ava is shorter than penguins.
+Ursula got a 93 on her French exam. Jana got a 65.
+There was an emergency at school today. Three engines and ambulance were called. It turned out to be a drill.
+Marlow, Perry, Forster and Janet will go to Asia in July or August. They will meet on Friday evening at 8 pm at the cinema.
+The digital wizard client manager who normally wears only hoodies and a hoodie has changed into a suit and a suit jacket. He has some sort of a client related presentation. Lee pre-purchased RoS CE in a temporal break of his brains.
+Maya wants Boris to bring home the clothes that are hanging outside. Boris is not home right now. Boris will tell Brian to take care of that.
+Barry is going to march in Women's strike. Jake, Dave and Kelly will join him. They will meet around the campus at noon.
+John and Laurel will meet at Jade's collection tomorrow at 5 pm to buy a birthday gift for Diana.
+Rachel has a new siamese cat named Portia. Rachel is allergic to cats. She is taking medication for it.
+Matthew, Kristina and Bart are going to Mark's wedding. There will be an after party after the wedding.
+Russel and Diana are going to buy a present for mum.
+There is something wrong with Amy. Neil and Owen think they should meet her in person.
+Rachel and Wai are going to meet at 4 at the main entrance of the museum. After that, they will go to a bar. Rachel is worried they won't like her.
+Tom wants to talk to Robert, but Robert is not in town.
+Dorothea is celebrating her birthday today. She will meet Tom and they will eat something in the town. Dorothea's birthday party is on Saturday.
+Jules and Derek don't have class tomorrow.
+Ainsley can't help Jane with her thesis because she has a cold.
+Lydia's legs are amazing after months at the gym.
+Mick has never been to Erasmus before. Amka is doing a lot of student exchanges. Mick is going to the club with his friends for Halloween. There was a plan for him to go to London for Halloween with his grandparents, but his grandma is having some health issues.
+Jessie and Karine were at kindergarten.
+Mae and Cael hope to have the dress soon.
+Fiona is in love with her student Conrad. He's 5 years younger than her. She can't stand it when she's in one room with him. She doesn't know what to do about it. Wanda advises her to go for it.
+Tim, John, Jeremy and Alice are worried about the situation in Kongo.
+Margaret and Evans are going to meet on 4th and 11th of December at 10:00. Evans might not be in town on 18th. They will meet on 14th.
+Bradley is busy at work and can't talk to Joanne.
+Pete will be home in 1 hour.
+Iris is trying to remove herself from an expense that involves a person who has left the group, and thus it can no longer be edited.
+Ola should be free by 8. Kurt will call him.
+Conny has to write a paper for next week. She did most of her research on the internet. Fitz advises her to go to the library.
+Archie and Louis think Melanie looks like Melanie when she had curly hair.
+Cindy talked to Carly about the girl who asked him to marry her.
+Kirsten and Alex are going bowling together this Friday at 7 pm.
+Sam doesn't think he likes her. Cathy thinks he does. Sam will talk to him tomorrow.
+Jess had a dream last night that she was a lion tamer. She wants to go to Africa this summer.
+Charles is worried about his gluten intolerance. Karen advises him to stop eating gluten for a month and see if he feels better. Monica did the same thing with lactose.
+Peter and Ulysses got an A and Julia got a B. Martha will check their grades online.
+Ralph and Andrew don't know how to sink a polish battleship.
+Linda missed the train. The next one will be in one hour. The ticket cost 80 euros.
+Martha wants to buy the lenses from Ophelia's profile picture. They are from Crazy Lenses.
+Linda wants to buy flowers for her mum, but she can't remember which one she likes. She's on the flower market right now.
+Tim is running late. Gary will go in and try to delay the main presentation.
+Anna will pick up Mark from the airport on Thursday at 3 pm. Marcus can't make it as he has a meeting at 1.
+Lewandowska, Joanna's thesis mentor, is sick with measles. She is being vaccinated in the main building from 17th until 19th. Joanna will try to get vaccinated before work on 18th.
+Louisa will bring Thelma a red velvet dress.
+Joseph will take Megan's car to the opera.
+Meg has lost her key. Carl is still waiting for her.
+Kim and Ben are meeting tonight for pizza with coke. Kim will give Ben a rain check.
+Stanley is alive and well.
+Maria is tired of her job. Felix and Anastasia try to calm her down.
+Ryanair has cancelled 400,000 flights. Luke has booked another flight with easyjet.
+Rachel's aunt was injured in a car accident. The driver was speeding and didn't see the red light. He will pay for the rehabilitation.
+Michelle and Rachel had an office party two months ago and Monica got drunk and became friendly with Ross. Monica is pregnant. Ross is happily married.
+Luke got his ass kicked surfing today. Low tide is 2:22 PM tomorrow.
+Benjamin wasn't able to attend Friday night's basketball game because his mother has a flu. Alex's team won the game. Benjamin will go to the next one next weekend.
+Jamilla reminds Kiki and Yoyo that the audition starts at 7.30 pm on Antena 3.
+Marta accidentally sent a gif to Agnieszka and Weronika.
+There was a meet and greet with James Charles in one of the malls in Birmingham and about 8000 fans showed up for it. James called him and introduced himself on air.
+Janice's boyfriend forced her to watch Deadpool 2 and Avengers 2.
