@@ -41,7 +41,31 @@ To utilize our enhanced abstractive chat summarization framework, follow these s
    pip install -r requirements.txt
    ```
 
-   
+## Usage
+
+### Download Dataset
+
+To download the dataset, run the following script:
+
+```
+python prova.py
+```
+
+### Train SICK Model
+
+To train the SICK model, use the following command:
+
+```
+python prova.py
+```
+
+### Get Inferences
+Obtain inferences using the following script:
+
+```
+python prova.py
+```
+
 
 # Our implementations
 Pretrained model V2V emoji on twitter data: https://drive.google.com/drive/folders/1iIiuXpx4UYdNLhhGkhymsUa1n6tE6HxT?usp=sharing
