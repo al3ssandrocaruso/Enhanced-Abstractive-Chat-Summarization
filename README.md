@@ -1,3 +1,48 @@
+# Enhanced Abstractive Chat Summarization
+
+## Overview
+
+This repository contains an enhanced implementation of the paper titled "Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization" by Seungone Kim. The original paper can be found [here](https://github.com/SeungoneKim/SICK_Summarization).
+
+Our work, titled "Leveraging Emojis, Keywords and Slang for Enhanced Abstractive Chat Summarization," builds upon the foundations laid by the aforementioned paper. We introduce novel extensions to the task of abstractive chat summarization, exploring the use of emojis, keywords, and effective slang handling to improve the quality of generated summaries.
+
+## Abstract
+
+In this study, we present innovative enhancements to the abstractive chat summarization task. Our approach extends previous research that emphasized the advantages of injecting commonsense knowledge into dialogue summarization. The primary focus of our extensions includes:
+
+1. **Emojis Significance:** We investigate the importance of emojis in dialogues and chat-like conversations. Emojis are explored as a rich source of information that can contribute to the generation of summaries with increased accuracy and contextual relevance.
+
+2. **Keywords Injection:** We explore the impact of injecting keywords into the summarization process. Our findings highlight the beneficial role of keywords in improving the quality of dialogue summaries.
+
+3. **Slang Handling:** We introduce a preprocessing technique to effectively handle slang in conversations. This addition aims to enhance the comprehensibility of generated summaries in the context of informal language use.
+
+The results obtained from our framework show promising outcomes, indicating the potential for improved abstractive chat summarization. We believe that our contributions provide a valuable foundation for future research endeavors in this field.
+
+## Built With
+
+This project is built with the following major frameworks/libraries:
+
+* [Python](https://www.python.org/) - Programming language used for implementation.
+
+
+## Getting Started
+
+To utilize our enhanced abstractive chat summarization framework, follow these steps:
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/al3ssandrocaruso/Enhanced-Abstractive-Chat-Summarization.git
+   ```
+
+2. Install the required packages:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+   
+
 # Our implementations
 Pretrained model V2V emoji on twitter data: https://drive.google.com/drive/folders/1iIiuXpx4UYdNLhhGkhymsUa1n6tE6HxT?usp=sharing
 
