@@ -3,7 +3,7 @@
 ## Overview
 
 <p align="center">
-  <img src="./sick2.jpg" width="100%" height="80%">
+  <img src="./sick 2.jpg" width="100%" height="80%">
 </p>
 
 This repository contains an enhanced implementation of the paper titled "Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization" by Seungone Kim. The original paper can be found [here](https://github.com/SeungoneKim/SICK_Summarization).
