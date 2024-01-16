@@ -2,6 +2,10 @@
 
 ## Overview
 
+<p align="center">
+  <img src="./sick2.jpg" width="100%" height="80%">
+</p>
+
 This repository contains an enhanced implementation of the paper titled "Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization" by Seungone Kim. The original paper can be found [here](https://github.com/SeungoneKim/SICK_Summarization).
 
 Our work, titled "Leveraging Emojis, Keywords and Slang for Enhanced Abstractive Chat Summarization," builds upon the foundations laid by the aforementioned paper. We introduce novel extensions to the task of abstractive chat summarization, exploring the use of emojis, keywords, and effective slang handling to improve the quality of generated summaries.
@@ -24,6 +28,15 @@ This project is built with the following major frameworks/libraries:
 
 * [Python](https://www.python.org/) - Programming language used for implementation.
 
+## Usage
+
+### Download Dataset
+
+To download the dataset, run the following script:
+
+```
+
+```
 
 ## Getting Started
 
@@ -41,15 +54,6 @@ To utilize our enhanced abstractive chat summarization framework, follow these s
    pip install -r requirements.txt
    ```
 
-## Usage
-
-### Download Dataset
-
-To download the dataset, run the following script:
-
-```
-python prova.py
-```
 
 ### Train SICK Model
 
