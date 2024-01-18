@@ -7,5 +7,5 @@ bert_score
 py7zr
 metrics
 evaluate
-accelerate
-spacy
+accelerate --upgrade
+spacy --upgrade
