@@ -22,15 +22,36 @@ In this study, we present innovative enhancements to the abstractive chat summar
 
 The results obtained from our framework show promising outcomes, indicating the potential for improved abstractive chat summarization. We believe that our contributions provide a valuable foundation for future research endeavors in this field.
 
-## Downloads
+## Setting
+To utilize our enhanced abstractive chat summarization framework we suggest the use of Google Colab and the execution of the following steps.
 
-### Repository
 Clone the repository:
 ```
 git clone https://github.com/al3ssandrocaruso/Enhanced-Abstractive-Chat-Summarization.git
 ```
+Run these lines of code:
+```
+pip install -r requirements.txt
+!sudo apt-get update -y
+!sudo apt-get install python3.8
+!sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 1
+!sudo update-alternatives --config python3
+!python3 --version
+!sudo apt install python3-pip
+!sudo apt install python3.8-distutils
+   
+!pip install datasets
+!pip install rouge_score
+!pip install bert_score
+!pip install py7zr
+!pip install metrics
+!pip install evaluate
+!pip install accelerate -U
+!pip install -U spacy
+!python -m spacy download en_core_web_sm
+```
 
-### Dataset
+### Dataset Download
 For training and evaluating on Samsum, we use dataset provided by [Hugging Face Dataset Library](https://github.com/huggingface/datasets). For Dialogsum, the dataset is not automatically provided, so you can download it from the url below,
 ```
 https://drive.google.com/drive/folders/1plWw-jWvYo0QZsr1rv9BtXb0dYuRPsv1?usp=sharing
@@ -50,13 +71,8 @@ mkdir data/COMET_data
 ```
 To process the commonsense data [COMET-ATOMIC 2020](https://github.com/allenai/comet-atomic-2020) and [PARACOMET](https://github.com/skgabriel/paracomet) were used.
 
-### Pretrained W2V
-You can download the W2V model (both the version trained on the twitter dataset (TODO:link to twitter dataset) and the one finetuned on samsum) from here:
-```
-https://drive.google.com/drive/folders/1q8QOSHmAudSsRqEKhAu5fgcHKbsj8ooD?usp=sharing
-``` 
 ### .json Files
-You can download all the needed json files from here: 
+You can download all the needed json files to run our extensions from here: 
 ```
 TODO
 ```
@@ -64,38 +80,11 @@ and please put them inside this folder:
 ```
 Enhanced-Abstractive-Chat-Summarization/data/COMET_data/paracomet/dialogue/
 ```
-
-## Setting
-
-To utilize our enhanced abstractive chat summarization framework we suggest the use of Google Colab and the execution of the following steps.
-
-2. Install the packages in requirements.txt file:
-
-   ```
-   pip install -r requirements.txt
-   ```
-
-   and execute these lines too: 
-
-   ```
-   !sudo apt-get update -y
-   !sudo apt-get install python3.8
-   !sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 1
-   !sudo update-alternatives --config python3
-   !python3 --version
-   !sudo apt install python3-pip
-   !sudo apt install python3.8-distutils
-   
-   !pip install datasets
-   !pip install rouge_score
-   !pip install bert_score
-   !pip install py7zr
-   !pip install metrics
-   !pip install evaluate
-   !pip install accelerate -U
-   !pip install -U spacy
-   !python -m spacy download en_core_web_sm
-   ```
+### Pretrained W2V
+You can download the W2V model (both the version trained on the twitter dataset (TODO:link to twitter dataset) and the one finetuned on samsum) from here:
+```
+https://drive.google.com/drive/folders/1q8QOSHmAudSsRqEKhAu5fgcHKbsj8ooD?usp=sharing
+``` 
 
 ## Train
 To train the original SICK model execute the following command: 
