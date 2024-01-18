@@ -31,23 +31,13 @@ git clone https://github.com/al3ssandrocaruso/Enhanced-Abstractive-Chat-Summariz
 ```
 Run these lines of code:
 ```
-pip install -r requirements.txt
+!pip install -r requirements.txt
 !sudo apt-get update -y
 !sudo apt-get install python3.8
 !sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 1
 !sudo update-alternatives --config python3
-!python3 --version
 !sudo apt install python3-pip
 !sudo apt install python3.8-distutils
-   
-!pip install datasets
-!pip install rouge_score
-!pip install bert_score
-!pip install py7zr
-!pip install metrics
-!pip install evaluate
-!pip install accelerate -U
-!pip install -U spacy
 !python -m spacy download en_core_web_sm
 ```
 
