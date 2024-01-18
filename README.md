@@ -29,7 +29,7 @@ Clone the repository:
 ```
 git clone https://github.com/al3ssandrocaruso/Enhanced-Abstractive-Chat-Summarization.git
 ```
-Run these lines of code:
+Run these commands:
 ```
 !pip install -r requirements.txt
 !sudo apt-get update -y
@@ -71,7 +71,7 @@ and please put them inside this folder:
 Enhanced-Abstractive-Chat-Summarization/data/COMET_data/paracomet/dialogue/
 ```
 ### Pretrained W2V
-Although not strictly necessary, you can still download the W2V model (both the version trained on the twitter dataset (TODO:link to twitter dataset) and the one finetuned on samsum) from here:
+Although not strictly necessary, you can still download the W2V model (both the version trained on the twitter dataset (TODO:link to twitter dataset) and the one finetuned on Samsum) from here:
 ```
 https://drive.google.com/drive/folders/1q8QOSHmAudSsRqEKhAu5fgcHKbsj8ooD?usp=sharing
 ``` 
@@ -86,13 +86,13 @@ To train the original SICK model execute the following command:
 In order to include our extensions please add the following parameters (singularly or as in supported combinations below):  
 
 - emoji_m0 : If True emojis in the dataset are replaced with their static representation.
-- emoji_m1 : If True it replaces emojis in the dataset with custom token containing their most similar words based on a W2V model which was trained on a twitter dataset and finetuned on samsum dataset.
+- emoji_m1 : If True it replaces emojis in the dataset with custom tokens containing their most similar words based on a W2V model which was trained on a twitter dataset and finetuned on Samsum dataset.
 - keyword : If True KeyBert is used to build and add to the dataset new custom tokens containing the keywords it is capable to retrieve from each utterance. 
-- slang : If True slang expressions are mapped to their corresponding actual meaning. 
+- slang : If True the model is trained on a dataset in which slang expressions are replaced with their corresponding actual meaning. 
 
-The supported combinations of these parameters are: ```emoji_m1 + slang + keyword```, ```emoji_m1 + keyword```
+As for now, the supported combinations of these parameters are: ```emoji_m1 + slang + keyword```, ```emoji_m1 + keyword```
 
-*Note*: our implementations only work with samsum dataset. 
+*Note*: our implementations only work with Samsum dataset. 
 
 We suggest to use different values for the ```--finetune_weight_path``` and ```--best_finetune_weight_path``` parameters on different runs to then be able to infer using all the models you trained by using the differently-named checkpoints (to be given as ```--model_checkpoint``` parameter to inference.py) 
 
