@@ -71,7 +71,7 @@ mkdir data/COMET_data
 ```
 To process the commonsense data [COMET-ATOMIC 2020](https://github.com/allenai/comet-atomic-2020) and [PARACOMET](https://github.com/skgabriel/paracomet) were used.
 
-### .json Files
+### Preprocessed JSON Files
 You can download all the needed json files to run our extensions from here: 
 ```
 TODO
