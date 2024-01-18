@@ -85,7 +85,7 @@ To train the original SICK model execute the following command:
 
 In order to include our extensions please add the following parameters (singularly or as in supported combinations below):  
 
-- emoji_m0 : If True emojis in the dataset are replaced with their aliases.
+- emoji_m0 : If True emojis in the dataset are replaced with their aliases according to this dataset (TODO: link).
 - emoji_m1 : If True it replaces emojis in the dataset with custom tokens containing their most similar words based on a W2V model which was trained on a twitter dataset and finetuned on Samsum dataset.
 - keyword : If True KeyBert is used to build and add to the dataset new custom tokens containing the keywords it is capable to retrieve from each utterance. 
 - slang : If True the model is trained on a dataset in which slang expressions are replaced with their corresponding actual meaning. 
@@ -107,3 +107,4 @@ Make sure to be using the right value for the ```--model_checkpoint``` parameter
 TODO: 
 - share the missing jsons
 - link the twitter dataset in the w2v
+- link the emoji dataset for emoji_m0
