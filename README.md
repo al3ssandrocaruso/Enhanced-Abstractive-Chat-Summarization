@@ -110,7 +110,7 @@ We suggest to use different values for the ```--finetune_weight_path``` and ```-
 ## Inference
 Obtain inferences executing the next command:
 ```
-!python3 /content/Enhanced-Abstractive-Chat-Summarization/src/inference.py --dataset_name "samsum" --model_checkpoint="./new_weights_sick_best" --test_output_file_name="./tmp_result.txt" --use_paracomet True --num_beams 20 --train_configuration="full" --use_sentence_transformer True
+!python3 /content/Enhanced-Abstractive-Chat-Summarization/src/inference.py --dataset_name "samsum" --model_checkpoint="./new_weights_sick_best" --test_output_file_name="./summaries.txt" --use_paracomet True --num_beams 20 --train_configuration="full" --use_sentence_transformer True
 ```
 Make sure to be using the right value for the ```--model_checkpoint``` parameter if you trained the model more than once using different extensions.
 
