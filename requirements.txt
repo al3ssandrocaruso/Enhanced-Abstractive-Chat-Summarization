@@ -6,3 +6,6 @@ rouge_score
 bert_score
 py7zr
 metrics
+evaluate
+accelerate
+spacy
