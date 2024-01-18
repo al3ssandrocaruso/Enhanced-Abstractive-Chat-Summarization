@@ -81,7 +81,7 @@ and please put them inside this folder:
 Enhanced-Abstractive-Chat-Summarization/data/COMET_data/paracomet/dialogue/
 ```
 ### Pretrained W2V
-You can download the W2V model (both the version trained on the twitter dataset (TODO:link to twitter dataset) and the one finetuned on samsum) from here:
+Although not strictly necessary, you can still download the W2V model (both the version trained on the twitter dataset (TODO:link to twitter dataset) and the one finetuned on samsum) from here:
 ```
 https://drive.google.com/drive/folders/1q8QOSHmAudSsRqEKhAu5fgcHKbsj8ooD?usp=sharing
 ``` 
