@@ -6,9 +6,7 @@
   <img src="./sick 2.jpg" width="100%" height="80%">
 </p>
 
-This repository contains an enhanced implementation of the paper "Mind the Gap! Injecting Commonsense Knowledge for Abstractive Dialogue Summarization" by Seungone Kim et al. that can be found [here](https://github.com/SeungoneKim/SICK_Summarization).
-
-Our work, titled "Leveraging Emojis, Keywords and Slang for Enhanced Abstractive Chat Summarization," builds upon the foundations laid by the aforementioned paper. We introduce novel extensions which consist in exploring the use of emojis, keywords, and an effective slang handling to improve the quality of generated summaries.
+This repository features our inventive approach to abstractive chat summarization, titled "Leveraging Emojis, Keywords, and Slang for Enhanced Abstractive Chat Summarization." While deriving insights from prior research in the field, we have developed our own implementation to improve existing techniques. Our enhancements include integrating emojis, keywords, and handling of slang, all aimed at enhancing the overall quality of generated summaries.
 
 ## Abstract
 
