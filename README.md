@@ -68,7 +68,7 @@ https://drive.google.com/drive/folders/1q8QOSHmAudSsRqEKhAu5fgcHKbsj8ooD?usp=sha
 ### Weights
 If you want to replicate our experiment as discussed in the paper you can find it here:
 ```
-[https://drive.google.com/drive/folders/1q8QOSHmAudSsRqEKhAu5fgcHKbsj8ooD?usp=sharing](https://drive.google.com/drive/folders/1KDzAvghktpFB3HPRDOY1xJQUp62r0ARe?usp=sharing)
+https://drive.google.com/drive/folders/1KDzAvghktpFB3HPRDOY1xJQUp62r0ARe?usp=sharing
 ``` 
 
 ## Train
