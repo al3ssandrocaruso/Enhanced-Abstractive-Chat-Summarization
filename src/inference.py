@@ -108,7 +108,7 @@ finetune_model = finetune_model.to(device)
 finetune_model.eval()
 
 # Set metric
-ROUGE = "/content/SICK_Summarization/utils/rouge.py"
+ROUGE = "/content/Enhanced-Abstractive-Chat-Summarization/utils/rouge.py"
 metric = load_metric(ROUGE)
 metric2 = load_metric(ROUGE)
 metric3 = load_metric(ROUGE)
