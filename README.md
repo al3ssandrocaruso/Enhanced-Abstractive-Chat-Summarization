@@ -40,34 +40,25 @@ Run these commands:
 ```
 
 ### Dataset Download
-For training and evaluating on Samsum, we use dataset provided by [Hugging Face Dataset Library](https://github.com/huggingface/datasets). For Dialogsum, the dataset is not automatically provided, so you can download it from the url below,
+Both Dialogsum and Samsum datasets are provided by [Hugging Face Dataset Library](https://github.com/huggingface/datasets). Dialogsum, however, is also provided at this link:
 ```
 https://drive.google.com/drive/folders/1plWw-jWvYo0QZsr1rv9BtXb0dYuRPsv1?usp=sharing
 ```
-and put it under the directory of Enhanced-Abstractive-Chat-Summarization/data/DialogSum_Data .
+Please put it under the directory Enhanced-Abstractive-Chat-Summarization/data/DialogSum_Data .
 ```
 mkdir data/DialogSum_Data
 ```
 
-Also, you could download the preprocessed commonsense data from the url below,
+You can download the preprocessed commonsense data from the url below,
 ```
 https://drive.google.com/drive/folders/14Ot_3jYrXCONw_jUDgnCcojbFQUA10Ns?usp=sharing
 ```
-and put it in the directory of Enhanced-Abstractive-Chat-Summarization/data/COMET_data.
+and please put it in the directory Enhanced-Abstractive-Chat-Summarization/data/COMET_data.
 ```
 mkdir data/COMET_data
 ```
 To process the commonsense data [COMET-ATOMIC 2020](https://github.com/allenai/comet-atomic-2020) and [PARACOMET](https://github.com/skgabriel/paracomet) were used.
 
-### Preprocessed JSON Files
-You can download all the needed json files to run our extensions from here: 
-```
-TODO
-```
-and please put them inside this folder:
-```
-Enhanced-Abstractive-Chat-Summarization/data/COMET_data/paracomet/dialogue/
-```
 ### Pretrained W2V
 Although not strictly necessary, you can still download the W2V model (both the version trained on the twitter dataset (TODO:link to twitter dataset) and the one finetuned on Samsum) from here:
 ```
@@ -83,14 +74,14 @@ To train the original SICK model execute the following command:
 
 In order to include our extensions please add the following parameters (singularly or as in supported combinations below):  
 
-- emoji_m0 : If True emojis in the dataset are replaced with their aliases according to this dataset (TODO: link).
-- emoji_m1 : If True it replaces emojis in the dataset with custom tokens containing their most similar words based on a W2V model which was trained on a twitter dataset and finetuned on Samsum dataset.
+- emoji_m0 : If True emojis in the dataset are replaced with their aliases (TODO: according to this (link) dataset ).
+- emoji_m1 : If True it replaces emojis in the dataset with custom tokens containing their most similar words based on a W2V model which was trained on a twitter dataset (TODO:link to dataset) and finetuned on Samsum dataset.
 - keyword : If True KeyBert is used to build and add to the dataset new custom tokens containing the keywords it is capable to retrieve from each utterance. 
-- slang : If True the model is trained on a dataset in which slang expressions are replaced with their corresponding actual meaning. 
+- slang : If True the model is trained on a dataset in which slang expressions and abbreviations are replaced with their corresponding actual meaning (TODO: link to slang.csv)
 
 As for now, the supported combinations of these parameters are: ```emoji_m1 + slang + keyword```, ```emoji_m1 + keyword```
 
-*Note*: our implementations only work with Samsum dataset. 
+*Note*: our implementations only work with Samsum dataset.
 
 We suggest to use different values for the ```--finetune_weight_path``` and ```--best_finetune_weight_path``` parameters on different runs to then be able to infer using all the models you trained by using the differently-named checkpoints (to be given as ```--model_checkpoint``` parameter to inference.py) 
 
@@ -101,8 +92,3 @@ Obtain inferences executing the next command:
 !python3 /content/Enhanced-Abstractive-Chat-Summarization/src/inference.py --dataset_name "samsum" --model_checkpoint="./new_weights_sick_best" --test_output_file_name="./summaries.txt" --use_paracomet True --num_beams 20 --train_configuration="full" --use_sentence_transformer True
 ```
 Make sure to be using the right value for the ```--model_checkpoint``` parameter if you trained the model more than once using different extensions.
-
-TODO: 
-- share the missing jsons
-- link the twitter dataset in the w2v
-- link the emoji dataset for emoji_m0
