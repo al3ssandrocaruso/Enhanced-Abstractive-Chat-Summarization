@@ -8,6 +8,11 @@
 
 This repository features our inventive approach to abstractive chat summarization, titled "Leveraging Emojis, Keywords, and Slang for Enhanced Abstractive Chat Summarization." While deriving insights from prior research in the field, we have developed our own implementation to improve existing techniques. Our enhancements include integrating emojis, keywords, and handling of slang, all aimed at enhancing the overall quality of generated summaries.
 
+The paper is available at the following link:
+```
+https://drive.google.com/file/d/1VuMv0nps11GMmwQk1xme2Hs0h2-nNjUM/view?usp=sharing
+``` 
+
 ## Abstract
 
 In this study, we present innovative enhancements to the abstractive chat summarization task. Our approach extends previous research that emphasized the advantages of injecting commonsense knowledge into dialogue summarization. The primary focus of our extensions includes:
