@@ -46,12 +46,12 @@ Both Dialogsum and Samsum datasets are provided by [Hugging Face Dataset Library
 ```
 https://drive.google.com/drive/folders/1plWw-jWvYo0QZsr1rv9BtXb0dYuRPsv1?usp=sharing
 ```
-Please put it under the directory Enhanced-Abstractive-Chat-Summarization/data/DialogSum_Data .
+Please put it under the directory Enhanced-Abstractive-Chat-Summarization/data/DialogSum_Data.
 ```
 mkdir data/DialogSum_Data
 ```
 
-You can download the preprocessed commonsense data from the url below,
+You can download the preprocessed commonsense data from the url below:
 ```
 https://drive.google.com/drive/folders/14Ot_3jYrXCONw_jUDgnCcojbFQUA10Ns?usp=sharing
 ```
@@ -62,7 +62,7 @@ mkdir data/COMET_data
 To process the commonsense data [COMET-ATOMIC 2020](https://github.com/allenai/comet-atomic-2020) and [PARACOMET](https://github.com/skgabriel/paracomet) were used.
 
 ### Pretrained W2V
-Although not strictly necessary, you can still download the W2V model (both the version trained on the twitter dataset (TODO:link to twitter dataset) and the one finetuned on Samsum) from here:
+Although not strictly necessary, you can still download the W2V model (both the version trained on the [twitter dataset](https://drive.google.com/file/d/1QIohtJ1p3UGqcVMRzK7HG45uFqhC7sMz/view?usp=sharing) and the one finetuned on Samsum) from here:
 ```
 https://drive.google.com/drive/folders/1q8QOSHmAudSsRqEKhAu5fgcHKbsj8ooD?usp=sharing
 ```
