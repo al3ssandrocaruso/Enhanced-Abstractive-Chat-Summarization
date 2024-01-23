@@ -62,13 +62,13 @@ mkdir data/COMET_data
 To process the commonsense data [COMET-ATOMIC 2020](https://github.com/allenai/comet-atomic-2020) and [PARACOMET](https://github.com/skgabriel/paracomet) were used.
 
 ### Pretrained W2V
-Although not strictly necessary, you can still download the W2V model (both the version trained on the [twitter dataset](https://drive.google.com/file/d/1QIohtJ1p3UGqcVMRzK7HG45uFqhC7sMz/view?usp=sharing) and the one finetuned on Samsum) from here:
+Our pretrained Word2Vec (W2V) models, including both the version trained on the [twitter dataset](https://drive.google.com/file/d/1QIohtJ1p3UGqcVMRzK7HG45uFqhC7sMz/view?usp=sharing) and the one fine-tuned on the Samsum corpus, are accessible through this link:
 ```
 https://drive.google.com/drive/folders/1q8QOSHmAudSsRqEKhAu5fgcHKbsj8ooD?usp=sharing
 ```
 
 ### Weights
-If you want to replicate our experiment as discussed in the paper you can find it here:
+The pretrained models referenced in our paper are available at the following link:
 ```
 https://drive.google.com/drive/folders/1KDzAvghktpFB3HPRDOY1xJQUp62r0ARe?usp=sharing
 ``` 
