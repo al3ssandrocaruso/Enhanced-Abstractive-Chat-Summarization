@@ -59,7 +59,7 @@ and please put it in the directory Enhanced-Abstractive-Chat-Summarization/data/
 ```
 mkdir data/COMET_data
 ```
-To process the commonsense data [COMET-ATOMIC 2020](https://github.com/allenai/comet-atomic-2020) and [PARACOMET](https://github.com/skgabriel/paracomet) were used.
+To process the commonsense data [PARACOMET](https://github.com/skgabriel/paracomet) was used.
 
 ### Pretrained W2V
 Our pretrained Word2Vec (W2V) models, including both the version trained on the [twitter dataset](https://drive.google.com/file/d/1QIohtJ1p3UGqcVMRzK7HG45uFqhC7sMz/view?usp=sharing) and the one fine-tuned on the Samsum corpus, are accessible through this link:
